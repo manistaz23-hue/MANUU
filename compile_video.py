@@ -40,10 +40,8 @@ VIDEO_CLIPS = [
     ("25_outro",             "https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260626_210814_f0ba6e75-c152-4dcf-be18-e01eefda4086.mp4"),
 ]
 
-# ── Audio files (Part 1 = bedroom/living room, Part 2 = bathroom/wearables/outro) ──
 AUDIO_FILES = [
-    ("audio_part1", "https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260626_211735_2d67e365-6b48-42a2-b04b-04add431ee7e.mp3"),
-    ("audio_part2", "https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260626_211817_aac0c20d-16c0-4484-bc84-cf19b942bd44.mp3"),
+    ("voiceover_full", "https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260626_224346_988b8b15-4de3-4fc7-bae9-bdcbaf89d8e4.mp3"),
 ]
 
 
@@ -82,11 +80,11 @@ def main():
     combined_video = concatenate_videoclips(clips, method="compose")
     print(f"  Total video duration: {combined_video.duration:.1f}s")
 
-    # 3. Concatenate audio parts
-    print("\n=== Joining audio parts ===")
+    # 3. Load audio
+    print("\n=== Loading voiceover audio ===")
     audio_parts = [AudioFileClip(p) for p in audio_paths]
-    combined_audio = concatenate_audioclips(audio_parts)
-    print(f"  Total audio duration: {combined_audio.duration:.1f}s")
+    combined_audio = audio_parts[0]
+    print(f"  Audio duration: {combined_audio.duration:.1f}s")
 
     # 4. Attach audio to video (audio drives the length; video loops/pads if needed)
     print("\n=== Merging audio into video ===")

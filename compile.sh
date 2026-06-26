@@ -47,20 +47,8 @@ done
 
 echo ""
 echo "=== Downloading voiceover audio ==="
-curl -L -s "https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260626_211735_2d67e365-6b48-42a2-b04b-04add431ee7e.mp3" \
-  -o "$OUT/audio_part1.mp3" && echo "  ✓ audio_part1.mp3"
-curl -L -s "https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260626_211817_aac0c20d-16c0-4484-bc84-cf19b942bd44.mp3" \
-  -o "$OUT/audio_part2.mp3" && echo "  ✓ audio_part2.mp3"
-
-echo ""
-echo "=== Joining audio parts ==="
-ffmpeg -y -loglevel error \
-  -i "$OUT/audio_part1.mp3" \
-  -i "$OUT/audio_part2.mp3" \
-  -filter_complex "[0:a][1:a]concat=n=2:v=0:a=1[out]" \
-  -map "[out]" \
-  "$OUT/voiceover_full.mp3"
-echo "  ✓ voiceover_full.mp3"
+curl -L -s "https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260626_224346_988b8b15-4de3-4fc7-bae9-bdcbaf89d8e4.mp3" \
+  -o "$OUT/voiceover_full.mp3" && echo "  ✓ voiceover_full.mp3"
 
 echo ""
 echo "=== Building video concat list ==="
