@@ -15,7 +15,7 @@ const OUT = path.join(__dirname, 'out');
 // Scene-mapped cards. Handles are fictional/anonymized on purpose.
 const CARDS = [
   { n: 1,  user: 'stay.alive.club', creator: true,  time: '4d',  likes: '88.3K',
-    text: "give me your most unhinged survival hacks as a woman \u{1F440} i don’t mean “keep pepper spray”… what UNEXPECTEDLY saved your life?" },
+    text: "Give me your most \u{2728}unhinged\u{2728} survival hacks. I don’t mean “always keep pepper spray” I wanna know what unexpectedly saved your life!" },
   { n: 2,  user: 'finalgirl_energy', time: '4d', likes: '412.8K',
     text: "don’t scream “help.” scream FIRE. nobody comes for help — EVERYBODY comes to see a fire \u{1F525}" },
   { n: 3,  user: 'midwest.mama', time: '4d', likes: '389.1K',
