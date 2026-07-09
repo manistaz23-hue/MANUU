@@ -1,13 +1,15 @@
-# "UNHINGED SURVIVAL TACTICS EVERY WOMAN SHOULD KNOW" — reading script (~3 min)
+# "UNHINGED SURVIVAL TACTICS EVERY WOMAN NEEDS" — presenter-owned script (~3 min)
 
-Direct-address numbered countdown, presenter reads solo. Crisp numbers with a
-beat after each; faster through 9-12; slow down for 6 and the closer.
+Direct-address numbered countdown, presenter speaks with own authority — no
+comment-section attribution. Crisp numbers with a beat after each; faster
+through 9-12; slow down for 6 and the closer. Shorts cut: intro + 1-8 +
+closer (~90s).
 
 ---
 
-These are the most unhinged survival tactics every woman should know. They
-came straight from a comment section — and every single one was posted by a
-woman who lived long enough to type it. Save this.
+These are the most unhinged survival tactics every woman should have in her
+back pocket. And I'm not talking "carry pepper spray" — I'm talking the ones
+nobody teaches you. Save this.
 
 One. Never tell a stranger the truth. Fake name. Fake job. Fake boyfriend.
 You don't owe honesty to anyone you don't know — it is literally okay to lie
@@ -25,9 +27,9 @@ Four. Or scream "MOM." Every mother within a mile will turn her head.
 Five. Never yell "leave me alone" — people hear a lovers' spat and keep
 walking. Yell "I DON'T KNOW YOU" — that wakes up a whole street.
 
-Six. Never, EVER go to the second location. A cop told a room full of high
-school girls: you have a better chance surviving a gunshot than surviving the
-man who takes you somewhere else. Not even at gunpoint.
+Six. Never, EVER go to the second location. You have a better chance
+surviving a gunshot than surviving the man who takes you somewhere else. Do
+not get in that car. Not even at gunpoint.
 
 Seven. If he grabs you — drop. Go limp. Dead weight takes both of his
 hands... and your mouth still works.
@@ -49,20 +51,17 @@ BABE!" Now the whole hallway believes in a man who doesn't exist.
 Thirteen. Teach your kids this one: a real adult will NEVER ask a child for
 help. No grown man needs a child to find his lost dog... or whatever.
 
-Fourteen. From a real 9-1-1 operator: if you don't know where you are — mile
-markers, exit signs, store names. That's how they find you.
+Fourteen. If you ever call 9-1-1 and don't know where you are — mile markers,
+exit signs, store names. That's how they find you.
 
 Fifteen. Stranger creeping too close? Walk up to the nearest auntie: "MOM —
 this guy is bothering me." Congratulations. You've been adopted.
 
-Sixteen. And the pinned comment — the one that started it all: be as
-disgusting as you can be. Spit. Slobber. Bark. Sing off-key. You can wash it
-ALL off later... alive.
+Sixteen. Be as disgusting as you can be. Spit. Slobber. Bark. Sing off-key.
+You can wash it ALL off later... alive.
 
-And the last one isn't a tactic. It's the reason all of these exist. Women
-were given a heightened sense of intuition to offset the imbalance of
-physical strength. So if your gut feels off — always listen. Your gut is your
-superpower.
+And the last one isn't a tactic — it's the reason all of these work. Your
+intuition. If your gut feels off, always listen. Your gut is your superpower.
 
 Which one are you keeping? Drop YOUR tactic below — the wildest one makes
 part two. Stay sexy. Stay feral. Stay alive.
