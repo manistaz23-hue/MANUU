@@ -4,12 +4,15 @@
 **Structure:** comedic hook → hard pivot → serious message → mic-drop close
 **Delivery:** first half fast and theatrical, second half slower and dead serious
 
-## Generated audio
+## Generated audio (final — exactly 60.0s)
 
-- **File:** https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260711_043023_a2260aa2-c232-4229-bc2f-cf05679453b3.wav
-- **Duration:** 51.6 seconds
-- **Voice:** Reference Voice (cloned), Seed Audio 1.0, WAV 24 kHz
-- **Job ID:** `a2260aa2-c232-4229-bc2f-cf05679453b3`
+- **File:** https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260711_052157_326b70f6-b376-43d3-8ac8-53ed69e5ba13.wav
+- **Duration:** 60.0 seconds
+- **Voice:** Reference Voice (cloned), Seed Audio 1.0, WAV 24 kHz, speech_rate +20
+- **Job ID:** `326b70f6-b376-43d3-8ac8-53ed69e5ba13`
+
+Earlier takes: `a2260aa2` (51.6s, short script), `49d9b5e6` (73.4s, extended
+script at default speed).
 
 ---
 
