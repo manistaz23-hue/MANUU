@@ -26,7 +26,12 @@ nine months — it's your body, your health, your career, your money, your
 freedom. There is no such thing as "just" a baby.
 
 So don't hear romance first. Hear responsibility. Hear sleepless nights,
-medical bills, years of sacrifice — a future that can never be undone. If he's
-not ready to carry all of that with you, he's not ready to ask.
+medical bills, years of sacrifice — a future that can never be undone.
+
+That's why the conversation about having children should never happen just
+because the moment feels right. It should happen because both people
+understand exactly what they're signing up for — the responsibility, the
+support, the consequences. If he's not ready to carry all of that with you,
+he's not ready to ask.
 
 Because words are easy. Living with the outcome? That's the hard part.
