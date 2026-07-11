@@ -3,6 +3,13 @@
 **Runtime target:** ~60 seconds
 **Tone:** fast, deadpan-serious escalating rant, comedic
 
+## Generated audio
+
+- **File:** https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260711_042403_e7e181f1-7205-4c19-8ebc-139c5d9a142b.wav
+- **Duration:** 57.8 seconds
+- **Voice:** Reference Voice (cloned), Seed Audio 1.0, WAV 24 kHz
+- **Job ID:** `e7e181f1-7205-4c19-8ebc-139c5d9a142b`
+
 ---
 
 Ladies, listen to me very carefully. When a man looks you dead in your eyes
