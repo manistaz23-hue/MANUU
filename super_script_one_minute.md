@@ -4,6 +4,13 @@
 **Structure:** comedic hook → hard pivot → serious message → mic-drop close
 **Delivery:** first half fast and theatrical, second half slower and dead serious
 
+## Generated audio
+
+- **File:** https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260711_043023_a2260aa2-c232-4229-bc2f-cf05679453b3.wav
+- **Duration:** 51.6 seconds
+- **Voice:** Reference Voice (cloned), Seed Audio 1.0, WAV 24 kHz
+- **Job ID:** `a2260aa2-c232-4229-bc2f-cf05679453b3`
+
 ---
 
 When a man tells you, "I wanna get you pregnant" — let me tell you what your
