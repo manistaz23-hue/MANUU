@@ -13,6 +13,16 @@ lethal, but only along a narrow channel. Lost hearing in left ear, left face par
 survived, finished his PhD, kept working as a physicist.
 **Sources:** en.wikipedia.org/wiki/Anatoli_Bugorski · qz.com/964065 · allthatsinteresting.com/anatoli-bugorski
 
+## ✅ 011 — The Burglar Who Picked the Wrong Grandma (scripted as scripts/002)
+**Hook:** In 2019, a man broke into the home of an 82-year-old grandmother. Big mistake.
+**Payoff:** He left in an ambulance — the very thing he'd knocked on her door asking for. She posed for selfies with police.
+**Facts:** Willie Murphy, Rochester NY, Nov 21 2019, ~11pm. Claimed sickness, begged for an
+ambulance; she called police, refused entry; he broke through the door. She was a WNPF
+champion powerlifter (2014 lifter of the year), deadlifting 225 lbs into her 80s. In the
+dark she broke a table over him, poured baby shampoo in his eyes, hit him with a broom.
+Quote: "I'm alone and I'm old, but guess what? I'm TOUGH."
+**Sources:** washingtonpost.com/sports/2019/11/25 · abcnews.com id 67289683 · spectrumlocalnews.com 2019/11/26
+
 ## 🟡 002 — The Dancing Plague of 1518
 **Hook:** In 1518, a woman started dancing in the street — and couldn't stop. Within a month, four hundred people had joined her.
 **Payoff:** The city's cure was to hire musicians and make them dance MORE. People danced until they collapsed; some reportedly died.
