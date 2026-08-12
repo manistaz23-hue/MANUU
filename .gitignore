@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Media working files and render output
+hidden_cam_video/
+*_cleaned.wav
+*_cut.mp4
