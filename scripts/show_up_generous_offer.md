@@ -1,6 +1,6 @@
 # SHOW UP — "A Generous Offer" — Storyboard Script
 
-**~58.1s · 40 lines · 3 panels**
+**~53.0s · 40 lines · 3 panels · delivery 1.1×**
 
 > **POV: YOU COMPLAINED TO HR ABOUT YOUR SALARY… AND YOUR MANAGER COMES BACK WITH 3%.**
 > *(persistent on-screen text, top of frame, all three panels)*
@@ -34,7 +34,7 @@ office by the bidding war.
 ---
 
 # Panel 1 — The fantastic news
-**00.00 – 08.87 · 8.9s · 15%**
+**00.00 – 08.07 · 8.1s · 15%**
 
 Call center floor, rows of desks and headsets, fluorescent light, daytime.
 Nia is working at her station, headset around her neck. Sarah walks over
@@ -42,48 +42,48 @@ holding a folder, beaming.
 
 | In | Out | Spk | Dur | Line | Action |
 |--:|--:|:--|--:|:--|:--|
-| 00.00 | 02.65 | SARAH | 2.65 | Nia! I talked to HR about your complaint. | stops at desk, folder held up like a trophy |
-| 02.87 | 03.35 | NIA | 0.48 | Okay… | doesn't look up from her screen |
-| 03.57 | 05.24 | SARAH | 1.68 | And I have fantastic news. | smile widens further |
-| 05.46 | 05.94 | NIA | 0.48 | How much? | finally looks up, flat |
-| 06.09 | 06.80 | SARAH | 0.71 | Three percent. | still beaming |
-| 07.01 | 08.43 | NIA | 1.42 | That's the fantastic news? | dead stare, unimpressed |
-| 08.64 | 08.87 | SARAH | 0.24 | Yes! | undeterred |
+| 00.00 | 02.41 | SARAH | 2.41 | Nia! I talked to HR about your complaint. | stops at desk, folder held up like a trophy |
+| 02.61 | 03.05 | NIA | 0.44 | Okay… | doesn't look up from her screen |
+| 03.24 | 04.77 | SARAH | 1.52 | And I have fantastic news. | smile widens further |
+| 04.96 | 05.40 | NIA | 0.43 | How much? | finally looks up, flat |
+| 05.53 | 06.18 | SARAH | 0.65 | Three percent. | still beaming |
+| 06.37 | 07.66 | NIA | 1.29 | That's the fantastic news? | dead stare, unimpressed |
+| 07.85 | 08.07 | SARAH | 0.21 | Yes! | undeterred |
 
 ---
 
 # Panel 2 — The math problem
-**09.08 – 40.43 · 31.4s · 54%**
+**08.26 – 36.76 · 28.5s · 54%**
 
 Same floor, continuous. Nia leans back slightly, arms crossing. Sarah stays
 planted, folder now hugged to her chest as she defends the number.
 
 | In | Out | Spk | Dur | Line | Action |
 |--:|--:|:--|--:|:--|:--|
-| 09.08 | 10.73 | NIA | 1.65 | Sarah, inflation is five. | |
-| 10.93 | 11.87 | SARAH | 0.94 | It's still a raise. | quick |
-| 12.07 | 14.41 | NIA | 2.34 | So I'm losing money… with enthusiasm? | |
-| 14.67 | 16.30 | SARAH | 1.63 | Look at the bigger picture. | hands up |
-| 16.55 | 18.18 | NIA | 1.63 | I'm looking at my paycheck. | gestures at her monitor |
-| 18.43 | 20.75 | SARAH | 2.32 | I personally fought to get you three. | hand on her own chest |
-| 20.94 | 22.32 | NIA | 1.38 | What did you have to fight? | unimpressed |
-| 22.51 | 22.74 | SARAH | 0.23 | HR. | |
-| 22.87 | 23.56 | NIA | 0.69 | And they said? | |
-| 23.75 | 25.80 | SARAH | 2.06 | They said you're fairly compensated. | quieter |
-| 25.98 | 26.67 | NIA | 0.68 | So you lost. | deadpan |
-| 26.85 | 28.66 | SARAH | 1.82 | Three percent is significant! | smile straining |
-| 28.84 | 29.75 | NIA | 0.91 | Can I decline? | |
-| 29.92 | 31.05 | SARAH | 1.13 | Why decline money? | thrown |
-| 31.22 | 33.70 | NIA | 2.47 | You're asking me to celebrate a pay cut. | |
-| 33.87 | 34.99 | SARAH | 1.12 | It's not a pay cut! | defensive |
-| 35.16 | 36.50 | NIA | 1.34 | Costs up five. Pay up three. | counting on her fingers |
-| 36.66 | 38.67 | SARAH | 2.01 | Don't turn this into a math problem. | cutting her off |
-| 38.88 | 40.43 | NIA | 1.55 | You made it a math problem. | flat |
+| 08.26 | 09.75 | NIA | 1.50 | Sarah, inflation is five. | |
+| 09.94 | 10.79 | SARAH | 0.85 | It's still a raise. | quick |
+| 10.97 | 13.10 | NIA | 2.13 | So I'm losing money… with enthusiasm? | |
+| 13.33 | 14.82 | SARAH | 1.48 | Look at the bigger picture. | hands up |
+| 15.05 | 16.53 | NIA | 1.48 | I'm looking at my paycheck. | gestures at her monitor |
+| 16.76 | 18.86 | SARAH | 2.10 | I personally fought to get you three. | hand on her own chest |
+| 19.04 | 20.29 | NIA | 1.26 | What did you have to fight? | unimpressed |
+| 20.47 | 20.68 | SARAH | 0.21 | HR. | |
+| 20.79 | 21.42 | NIA | 0.63 | And they said? | |
+| 21.59 | 23.46 | SARAH | 1.87 | They said you're fairly compensated. | quieter |
+| 23.62 | 24.24 | NIA | 0.62 | So you lost. | deadpan |
+| 24.41 | 26.06 | SARAH | 1.65 | Three percent is significant! | smile straining |
+| 26.22 | 27.04 | NIA | 0.82 | Can I decline? | |
+| 27.20 | 28.23 | SARAH | 1.03 | Why decline money? | thrown |
+| 28.38 | 30.63 | NIA | 2.25 | You're asking me to celebrate a pay cut. | |
+| 30.79 | 31.81 | SARAH | 1.02 | It's not a pay cut! | defensive |
+| 31.96 | 33.18 | NIA | 1.22 | Costs up five. Pay up three. | counting on her fingers |
+| 33.33 | 35.15 | SARAH | 1.82 | Don't turn this into a math problem. | cutting her off |
+| 35.35 | 36.76 | NIA | 1.41 | You made it a math problem. | flat |
 
 ---
 
 # Panel 3 — The negotiation
-**40.64 – 58.11 · 17.5s · 30%**
+**36.95 – 53.03 · 16.1s · 30%**
 
 Same floor, continuous. Sarah's smile cracks for the first time, folder dropping
 from her chest. Nia stays perfectly still, arms crossed, letting the silence do
@@ -91,23 +91,23 @@ the work.
 
 | In | Out | Spk | Dur | Line | Action |
 |--:|--:|:--|--:|:--|:--|
-| 40.64 | 42.19 | SARAH | 1.55 | Just accept the three percent. | pleading |
-| 42.35 | 42.57 | NIA | 0.22 | No. | |
-| 42.68 | 42.90 | SARAH | 0.22 | Please? | |
-| 43.01 | 43.23 | NIA | 0.22 | No. | |
-| 43.38 | 45.13 | SARAH | 1.75 | It'll look bad if you reject it. | folder gestures toward the office |
-| 45.28 | 46.59 | NIA | 1.31 | Then HR can explain why. | shrugging |
+| 36.95 | 38.36 | SARAH | 1.41 | Just accept the three percent. | pleading |
+| 38.50 | 38.70 | NIA | 0.20 | No. | |
+| 38.80 | 39.00 | SARAH | 0.20 | Please? | |
+| 39.10 | 39.30 | NIA | 0.20 | No. | |
+| 39.44 | 41.03 | SARAH | 1.59 | It'll look bad if you reject it. | folder gestures toward the office |
+| 41.16 | 42.35 | NIA | 1.19 | Then HR can explain why. | shrugging |
 | | | | | *[+0.90s — Sarah's smile disappears completely]* | |
-| 47.63 | 48.94 | SARAH | 1.30 | …You know what? Four percent. | blurting |
-| 49.08 | 49.51 | NIA | 0.43 | Still no. | immediate |
-| 49.66 | 50.74 | SARAH | 1.08 | Four and a quarter. | faster |
-| 50.88 | 51.31 | NIA | 0.43 | Still no. | immediate |
-| 51.44 | 52.52 | SARAH | 1.07 | Nia, PLEASE TAKE THE RAISE. | voice cracking, almost shouting |
-| 52.65 | 54.15 | NIA | 1.50 | I'm not taking three percent. | calm — **see note** |
+| 43.38 | 44.57 | SARAH | 1.19 | …You know what? Four percent. | blurting |
+| 44.70 | 45.10 | NIA | 0.39 | Still no. | immediate |
+| 45.22 | 46.21 | SARAH | 0.98 | Four and a quarter. | faster |
+| 46.33 | 46.72 | NIA | 0.39 | Still no. | immediate |
+| 46.85 | 47.82 | SARAH | 0.98 | Nia, PLEASE TAKE THE RAISE. | voice cracking, almost shouting |
+| 47.95 | 49.31 | NIA | 1.36 | I'm not taking three percent. | calm — **see note** |
 | | | | | *[+0.45s]* | |
-| 54.73 | 55.80 | SARAH | 1.07 | FINE! FOUR AND A HALF! | blurting it out |
+| 49.88 | 50.85 | SARAH | 0.97 | FINE! FOUR AND A HALF! | blurting it out |
 | | | | | *[+0.90s — a beat of silence, smallest satisfied pause]* | |
-| 56.83 | 58.11 | NIA | 1.28 | Now we're negotiating. | flat |
+| 51.87 | 53.03 | NIA | 1.16 | Now we're negotiating. | flat |
 
 *Sarah's face falls as she realizes what she just gave away.*
 
@@ -117,15 +117,26 @@ the work.
 
 ## Production notes
 
-**Delivery model.** Rate ramps 4.15 → 4.70 syl/s and gaps close to 0.65× their
-opening width across the scene, so it accelerates as the pressure rises. Only
-three pauses exist in the whole piece, all in panel 3 — everything else is
-continuous. Nia's replies land on Sarah's line ends, never after a think.
+**Delivery speed is 1.1× and it is locked.** Generate every line with
+`speech_rate: 1.1` on `seed_audio`. All timings in this document assume it — at
+1.0× the same script runs 58.1s.
+
+**What 1.1× changes.** Speech drops 49.0s → 44.5s. Conversational gaps ride with
+it (they scale by the same 1.1, so the rhythm holds rather than turning gappy
+against faster lines), 6.9s → 6.3s. The three dramatic pauses stay **absolute** —
+a held beat is a held beat regardless of how fast the lines around it run — so
+they remain 0.90 / 0.45 / 0.90s.
+
+**Delivery model.** Rate ramps 4.57 → 5.17 syl/s across the scene (4.15 → 4.70
+before the 1.1× multiplier) and gaps close to 0.65× their opening width, so it
+accelerates as pressure rises. Only three pauses exist in the whole piece, all in
+panel 3 — everything else is continuous. Nia's replies land on Sarah's line ends,
+never after a think.
 
 **Line 38 — "I'm not taking three percent."** Sarah's live offer at this point is
 four and a quarter, so the number is two offers stale. Played straight it reads
-as an error; played as intended it's Nia refusing to dignify the increments —
-to her it's all still the 3% conversation. **Direct it as a deliberate refusal to
+as an error; played as intended it's Nia refusing to dignify the increments — to
+her it's all still the 3% conversation. **Direct it as a deliberate refusal to
 acknowledge the creep**, not as a recall of the figure. Nia doesn't track Sarah's
 numbers because she was never negotiating against them.
 
@@ -135,17 +146,22 @@ which is what makes her finding 1.5 points in ten seconds funny.
 
 **Balance:** Sarah 117 syllables / Nia 99. Sarah talks 54% and loses.
 
-## Headroom
+## Headroom — and the 7 seconds 1.1× gives back
 
-58.1s nominal. The syllable model is worth about ±8%, so a real read lands in
-53–63s.
+53.0s nominal, ±8% on the model, so a real read lands in **48.8 – 57.3s**.
 
-**If it runs long**, cut in this order — each is self-contained:
+The speed-up frees ~5s against a 60s slot. Filling it is a real choice, because
+every candidate line sits in panel 2 and pushes the balance the wrong way:
 
-1. **"Look at the bigger picture." / "I'm looking at my paycheck."** — −3.5s.
-   The scene already has three other reframe jokes.
-2. **"Why decline money?"** — −1.3s. "Can I decline?" survives on Sarah's
-   silence.
+| option | runtime | panel split |
+|---|--:|:--|
+| **as scripted** (recommended) | **53.0s** | 15 / **54** / 30 |
+| + "Most people only got two." / "That's not helping."<br>+ restore "If my expenses go up five percent and my salary goes up three—" | 58.1s | 14 / **58** / 28 |
+| + all panel-2 wording restored | 59.3s | 14 / **59** / 27 |
+
+Shipping at 53.0s keeps the structure that makes the ending land. Take the
+middle row only if the slot genuinely needs the seconds — it buys back a good
+joke and the finger-counting action beat, at the cost of a heavier middle.
 
 **Do not cut "Can I decline?"** — it sets up "It'll look bad if you reject it,"
 which is what forces Sarah into the bidding war. Without it her capitulation is

@@ -33,6 +33,7 @@ SR = 48000
 TRIM_DB = -45.0      # speech floor for trimming clip head/tail padding
 TRIM_GUARD = 0.030   # keep 30ms either side of speech when trimming
 FADE = 0.008         # micro-fade on each clip edge, prevents ticks
+SPEED = 1.10         # locked delivery rate; gaps scale with it, dramatic beats do not
 VOW = "aeiouy"
 
 
@@ -113,7 +114,7 @@ def schedule(rows):
     def gap(i):
         a, b = rows[i][4], rows[i + 1][4]          # syllable counts
         base = 0.14 if (a <= 4 and b <= 4) else (0.20 if (a <= 6 or b <= 6) else 0.26)
-        return base * (1.10 - 0.45 * (i / max(1, N - 2)))
+        return base * (1.10 - 0.45 * (i / max(1, N - 2))) / SPEED
 
     beats = {}
     for i, (_, _, text, _, _) in enumerate(rows):
