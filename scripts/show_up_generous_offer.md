@@ -8,8 +8,8 @@
 
 | | Design | Delivery | Voice ref |
 |---|---|---|---|
-| **SARAH** (manager) | Janet design — puffy side-bunches, headband, wide expressive mouth | Jovial → brittle → shouting. Never stops smiling until "Just take it." | `f4c6a078` |
-| **NIA** (agent) | Veronica design — ponytail, striped shirt, heavy-lidded deadpan | Flat, fast, zero effort. Her "No" costs her nothing, and that's the joke. | `b0968cd5` |
+| **SARAH** (manager) | Janet design — puffy side-bunches, headband, wide expressive mouth | Jovial → brittle → shouting. Never stops smiling until "Just take it." | PTO Meme Voice<br>`fdd8dca2-b602-417f-8c34-0a4cf186fe1d` (element) |
+| **NIA** (agent) | Veronica design — ponytail, striped shirt, heavy-lidded deadpan | Flat, fast, zero effort. Her "No" costs her nothing, and that's the joke. | Unhinged Survival Tactics Voice<br>`6e04b631-b469-4c36-b1a5-a6a39e7ff24c` (element) |
 
 **Setting.** Call center floor. Nia is working at her station. Sarah walks over with a folder and an enormous smile.
 

@@ -1,0 +1,50 @@
+1|SARAH|Nia! I talked to HR about your complaint.
+2|NIA|Okay.
+3|SARAH|I wanted you to hear it from me.
+4|NIA|Hear what?
+5|SARAH|Fantastic news.
+6|NIA|How much?
+7|SARAH|Three percent!
+8|NIA|...That's the fantastic news?
+9|SARAH|Most people got two!
+10|NIA|Inflation was five.
+11|SARAH|But it's still a raise.
+12|NIA|So I'm losing money with enthusiasm.
+13|SARAH|That's not how I'd frame it.
+14|NIA|How would you frame it?
+15|SARAH|...Growth.
+16|NIA|Growth.
+17|SARAH|I personally fought for this.
+18|NIA|Against who?
+19|SARAH|HR.
+20|NIA|And?
+21|SARAH|They said you're fairly paid.
+22|NIA|So you lost.
+23|SARAH|I won three percent!
+24|NIA|Can I decline?
+25|SARAH|Why would you decline money?
+26|NIA|It's not money. It's less money.
+27|SARAH|This is a good outcome.
+28|NIA|For who?
+29|SARAH|It is not a pay cut!
+30|NIA|Costs up five. Pay up three.
+31|SARAH|Don't make this math.
+32|NIA|You made it math.
+33|SARAH|Just take it.
+34|NIA|No.
+35|SARAH|Please?
+36|NIA|No.
+37|SARAH|It'll look bad.
+38|NIA|Then HR can explain.
+39|SARAH|...You'd do that?
+40|NIA|I'd enjoy it.
+41|SARAH|Four percent.
+42|NIA|No.
+43|SARAH|Four and a quarter.
+44|NIA|No.
+45|SARAH|Four and a half.
+46|NIA|No.
+47|SARAH|NIA. TAKE THE RAISE.
+48|NIA|Not at four and a half.
+49|SARAH|FINE! FIVE!
+50|NIA|Now we're negotiating.
