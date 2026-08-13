@@ -1,155 +1,182 @@
 # SHOW UP — "A Generous Offer"
 
-**1-minute cut · ~61.6s nominal**
+**1-minute cut · ~58.0s nominal**
 
-> pov: you get a raise that's smaller than inflation
+> POV: You complained to HR about your salary… and your manager comes back with 3%.
 
 ## Cast & anchors
 
 | | Design | Delivery | Voice ref |
 |---|---|---|---|
-| **SARAH** (manager) | Janet design — puffy side-bunches, headband, wide expressive mouth | Jovial, escalating brightness. Sells every number like a gift. | `f4c6a078` |
-| **NIA** (agent) | Veronica design — ponytail, striped shirt, heavy-lidded deadpan | Flat, unhurried, mouth barely moves. Never looks up until the last line. | `b0968cd5` |
+| **SARAH** (manager) | Janet design — puffy side-bunches, headband, wide expressive mouth | Jovial, then flailing. Sells 3% like a gift, ends up shouting a number nobody asked for. | `f4c6a078` |
+| **NIA** (agent) | Veronica design — ponytail, striped shirt, heavy-lidded deadpan | Flat, unhurried, mouth barely moves. Says "No" like it costs nothing. | `b0968cd5` |
 
-**Setting.** Call center floor. Nia at her station, headset around her neck, queue on screen. Sarah strides over, hands clasped, glowing.
+**Setting.** Call center floor. Nia is working at her station. Sarah walks over with a folder and an enormous smile.
 
-**Blocking rule.** Nia does not look up for the entire scene. She looks up once, on "Marcus was overpaid" — that's the whole visual turn. Sarah's hands stay clasped until "Four percent," then they come apart and never re-clasp.
+**Blocking rule.** The folder is the tell. Sarah holds it up like evidence through the first half; it drops to her side on "Just accept it," and she's gripping it with both hands by "FINE! FOUR AND A HALF!" Nia never stops working — she keeps typing through every line, including the last.
 
 ---
 
 ## Script
 
-**SARAH** *(jovial)* — "Nia! Hey. I got you a three percent raise."
+**SARAH:** Nia! I talked to HR about your complaint.
 
-**NIA** *(not looking up)* — "Cool. Thanks."
+**NIA:** Okay.
 
-**SARAH** — "Most people got two."
+**SARAH:** And I have fantastic news.
 
-**NIA** — "Inflation was five."
+**NIA:** How much?
 
-**SARAH** — "Inflation's macroeconomic. This is personal."
+**SARAH:** **Three percent.**
 
-**NIA** — "My rent is not macroeconomic."
+*[Nia just stares at her.]*
 
-**SARAH** — "You should be grateful."
+**NIA:** That's the fantastic news?
 
-**NIA** — "I am. Grateful you said it out loud. Now it's on record."
+**SARAH:** Yes!
 
-**SARAH** — "On record where?"
+**NIA:** Sarah, inflation is five percent.
 
-**NIA** — "Depends. Am I getting five?"
+**SARAH:** It's still a raise.
 
-**SARAH** *(laughs, too loud)* — "Oh, honey. No."
+**NIA:** So I'm losing money… with enthusiasm?
 
-**NIA** — "Then everywhere."
+**SARAH:** I personally fought to get you three.
 
-**SARAH** — "They said 'replaceable.' I said 'loyal.'"
+**NIA:** What did you have to fight?
 
-**NIA** — "Did you say 'she knows where the bodies are'?"
+**SARAH:** HR.
 
-**SARAH** *(beat)* — "That was the other meeting."
+**NIA:** And they said?
 
-**NIA** — "Is it retroactive?"
+**SARAH:** They said you're fairly compensated.
 
-**SARAH** — "No. Reject it, we keep it. New policy."
+**NIA:** So you lost.
 
-**NIA** — "You can't do that."
+**SARAH:** **Three percent is significant!**
 
-**SARAH** *(smiling)* — "Watch me."
+**NIA:** Can I decline it?
 
-**NIA** — "…I'll take the three."
+**SARAH:** Why decline money?
 
-**SARAH** *(triumphant)* — "There's my girl."
+**NIA:** You're asking me to celebrate a pay cut.
 
-**NIA** — "I'll start applying next week. That's my policy."
+**SARAH:** It's not a pay cut!
 
-**SARAH** — "You wouldn't."
+**NIA:** My costs go up five, my pay goes up three—
 
-**NIA** — "Inflation's doing your recruiting for me."
+**SARAH:** Don't turn this into a math problem.
 
-*Long beat. Sarah's smile twitches.*
+**NIA:** You made it a math problem.
 
-**SARAH** — "Four percent."
+**SARAH:** Just accept it.
 
-**NIA** — "Four point nine."
+**NIA:** No.
 
-**SARAH** — "Four."
+**SARAH:** Please?
 
-**NIA** — "That's one avocado. Weekly."
+**NIA:** No.
 
-**SARAH** — "Four and a quarter. Final."
+**SARAH:** It'll look bad if you reject it.
 
-**NIA** — "Deal. Retroactive."
+**NIA:** Then HR can explain why.
 
-**SARAH** — "Better than Marcus did in four years."
+*[Sarah's smile disappears.]*
 
-**NIA** *(looks up for the first time)* — "Marcus was overpaid. And I know his salary."
+**SARAH:** …You know what? Four percent.
 
-**SARAH** — "You do not know his salary."
+**NIA:** Still no.
 
-**NIA** — "You just told me. Twice."
+**SARAH:** Four and a quarter.
 
-*Sarah opens her mouth. Closes it. Nia puts her headset on, takes the next call.*
+**NIA:** Still no.
+
+**SARAH:** Nia, PLEASE TAKE THE RAISE.
+
+**NIA:** I'm not taking four and a quarter.
+
+**SARAH:** **FINE! FOUR AND A HALF!**
+
+*[Silence.]*
+
+**NIA:** Now we're negotiating.
+
+*[Sarah realizes she just exposed herself.]*
+
+**CUT.**
 
 ---
 
 ## Record sheet — line-aligned gaps
 
-Cut points assume 4.3 syl/s and a 0.24s inter-line gap. Three lines carry extra
-air after them; everything else is the standard gap.
+Gaps are variable, not fixed: a snap retort follows its cue faster than a
+considered line. Both lines ≤4 syllables → 0.14s; either ≤6 → 0.20s; otherwise
+0.28s. Three beats carry extra air.
 
 | # | In | Out | Spk | Dur | Line |
 |--:|--:|--:|:--|--:|:--|
-| 1 | 00.00 | 02.33 | SARAH | 2.33 | Nia! Hey. I got you a three percent raise. |
-| 2 | 02.57 | 03.03 | NIA | 0.47 | Cool. Thanks. |
-| 3 | 03.27 | 04.43 | SARAH | 1.16 | Most people got two. |
-| 4 | 04.67 | 05.84 | NIA | 1.16 | Inflation was five. |
-| 5 | 06.08 | 09.10 | SARAH | 3.02 | Inflation's macroeconomic. This is personal. |
-| 6 | 09.34 | 11.43 | NIA | 2.09 | My rent is not macroeconomic. |
-| 7 | 11.67 | 13.07 | SARAH | 1.40 | You should be grateful. |
-| 8 | 13.31 | 16.80 | NIA | 3.49 | I am. Grateful you said it out loud. Now it's on record. |
-| 9 | 17.04 | 17.97 | SARAH | 0.93 | On record where? |
-| 10 | 18.21 | 19.83 | NIA | 1.63 | Depends. Am I getting five? |
-| 11 | 20.07 | 21.00 | SARAH | 0.93 | Oh, honey. No. |
-| 12 | 21.24 | 22.41 | NIA | 1.16 | Then everywhere. |
-| 13 | 22.65 | 24.74 | SARAH | 2.09 | They said 'replaceable.' I said 'loyal.' |
-| 14 | 24.98 | 27.31 | NIA | 2.33 | Did you say 'she knows where the bodies are'? |
-| 15 | 27.55 | 29.17 | SARAH | 1.63 | That was the other meeting. |
-| 16 | 29.41 | 30.58 | NIA | 1.16 | Is it retroactive? |
-| 17 | 30.82 | 33.37 | SARAH | 2.56 | No. Reject it, we keep it. New policy. |
-| 18 | 33.61 | 34.55 | NIA | 0.93 | You can't do that. |
-| 19 | 34.79 | 35.25 | SARAH | 0.47 | Watch me. |
-| 20 | 35.49 | 36.42 | NIA | 0.93 | …I'll take the three. |
-| 21 | 37.46 | 38.39 | SARAH | 0.93 | There's my girl. |
-| 22 | 38.63 | 41.19 | NIA | 2.56 | I'll start applying next week. That's my policy. |
-| 23 | 41.43 | 41.89 | SARAH | 0.47 | You wouldn't. |
-| 24 | 42.13 | 44.46 | NIA | 2.33 | Inflation's doing your recruiting for me. |
-| 25 | 45.30 | 46.00 | SARAH | 0.70 | Four percent. |
-| 26 | 46.24 | 46.93 | NIA | 0.70 | Four point nine. |
-| 27 | 47.17 | 47.41 | SARAH | 0.23 | Four. |
-| 28 | 47.65 | 49.51 | NIA | 1.86 | That's one avocado. Weekly. |
-| 29 | 49.75 | 51.38 | SARAH | 1.63 | Four and a quarter. Final. |
-| 30 | 51.62 | 52.55 | NIA | 0.93 | Deal. Retroactive. |
-| 31 | 52.79 | 54.88 | SARAH | 2.09 | Better than Marcus did in four years. |
-| 32 | 55.12 | 58.14 | NIA | 3.02 | Marcus was overpaid. And I know his salary. |
-| 33 | 58.38 | 60.24 | SARAH | 1.86 | You do not know his salary. |
-| 34 | 60.48 | 61.65 | NIA | 1.16 | You just told me. Twice. |
+| 1 | 00.00 | 02.56 | SARAH | 2.56 | Nia! I talked to HR about your complaint. |
+| 2 | 02.76 | 03.22 | NIA | 0.47 | Okay. |
+| 3 | 03.42 | 05.05 | SARAH | 1.63 | And I have fantastic news. |
+| 4 | 05.25 | 05.72 | NIA | 0.47 | How much? |
+| 5 | 05.86 | 06.55 | SARAH | 0.70 | Three percent. |
+| 6 | 06.75 | 08.15 | NIA | 1.40 | That's the fantastic news? |
+| 7 | 08.35 | 08.58 | SARAH | 0.23 | Yes! |
+| 8 | 08.78 | 10.87 | NIA | 2.09 | Sarah, inflation is five percent. |
+| 9 | 11.07 | 12.01 | SARAH | 0.93 | It's still a raise. |
+| 10 | 12.21 | 14.53 | NIA | 2.33 | So I'm losing money… with enthusiasm? |
+| 11 | 14.81 | 17.14 | SARAH | 2.33 | I personally fought to get you three. |
+| 12 | 17.34 | 18.73 | NIA | 1.40 | What did you have to fight? |
+| 13 | 18.93 | 19.16 | SARAH | 0.23 | HR. |
+| 14 | 19.30 | 20.00 | NIA | 0.70 | And they said? |
+| 15 | 20.20 | 22.29 | SARAH | 2.09 | They said you're fairly compensated. |
+| 16 | 22.49 | 23.19 | NIA | 0.70 | So you lost. |
+| 17 | 23.39 | 25.25 | SARAH | 1.86 | Three percent is significant! |
+| 18 | 25.45 | 26.62 | NIA | 1.16 | Can I decline it? |
+| 19 | 26.82 | 27.98 | SARAH | 1.16 | Why decline money? |
+| 20 | 28.18 | 30.74 | NIA | 2.56 | You're asking me to celebrate a pay cut. |
+| 21 | 30.94 | 32.10 | SARAH | 1.16 | It's not a pay cut! |
+| 22 | 32.30 | 34.63 | NIA | 2.33 | My costs go up five, my pay goes up three— |
+| 23 | 34.91 | 37.00 | SARAH | 2.09 | Don't turn this into a math problem. |
+| 24 | 37.28 | 38.91 | NIA | 1.63 | You made it a math problem. |
+| 25 | 39.11 | 40.04 | SARAH | 0.93 | Just accept it. |
+| 26 | 40.18 | 40.41 | NIA | 0.23 | No. |
+| 27 | 40.55 | 40.78 | SARAH | 0.23 | Please? |
+| 28 | 40.92 | 41.15 | NIA | 0.23 | No. |
+| 29 | 41.35 | 43.21 | SARAH | 1.86 | It'll look bad if you reject it. |
+| 30 | 43.41 | 44.81 | NIA | 1.40 | Then HR can explain why. |
+| 31 | 45.91 | 47.31 | SARAH | 1.40 | …You know what? Four percent. |
+| 32 | 47.51 | 47.97 | NIA | 0.47 | Still no. |
+| 33 | 48.17 | 49.33 | SARAH | 1.16 | Four and a quarter. |
+| 34 | 49.53 | 50.00 | NIA | 0.47 | Still no. |
+| 35 | 50.20 | 51.36 | SARAH | 1.16 | Nia, PLEASE TAKE THE RAISE. |
+| 36 | 51.56 | 53.65 | NIA | 2.09 | I'm not taking four and a quarter. |
+| 37 | 54.35 | 55.52 | SARAH | 1.16 | FINE! FOUR AND A HALF! |
+| 38 | 56.62 | 58.01 | NIA | 1.40 | Now we're negotiating. |
 
-**Extra air:** +0.80s after #20 (the capitulation), +0.60s after #24 (the long beat
-before Sarah cracks), +1.00s after #34 (the button, into the headset move).
+**Extra air:** +0.90s after #30 (smile drops), +0.50s after #36 (Sarah cracks),
++0.90s after #37 (the silence the button needs).
 
-**Balance:** Sarah 105 syllables / Nia 120. Nia carries 53% — correct, since the
-scene is her win.
+**Balance:** Sarah 107 syllables / Nia 101 — near even, correct for this version.
+Sarah does the work; Nia only has to refuse.
 
-## If the recorded read runs long
+**Rapid-fire block:** #25–28 run on 0.14s gaps. That four-line "Just accept it /
+No / Please? / No" is the metronome of the scene — if the read drags there,
+re-record it rather than fixing it in the edit.
 
-The syllable model is worth about ±8%, so a real read lands somewhere in 57–66s.
-Cut in this order, each is self-contained and costs no setup or payoff:
+## Headroom
 
-1. **#3 "Most people got two."** — −1.4s. The comparison is implied by "three percent."
-2. **#23 "You wouldn't."** — −0.7s. Sarah's silence plays as well as her protest.
-3. **#7 + #8** trimmed to "You should be grateful." / "Grateful you said it out
-   loud. It's on record." — −0.5s.
+58.0s nominal, and the syllable model is worth about ±8%, so a real read lands
+in 53–63s. That's deliberate slack, not slop — it means a slow read still fits
+a 60s slot.
 
-Do **not** cut #16 "Is it retroactive?" — it sets up "Deal. Retroactive." at #30,
-which is the moment Nia wins the thing she was refused.
+**If it comes in short**, add back the strongest cut line:
+
+> **SARAH:** Most people only got two.
+> **NIA:** That's not helping.
+
+Insert after #9. Costs ~3.1s.
+
+**Do not cut #18 "Can I decline it?"** — it sets up #29 "It'll look bad if you
+reject it," which is what forces Sarah into the bidding war. Losing it makes her
+capitulation unmotivated.
