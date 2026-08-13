@@ -1,0 +1,43 @@
+# A Generous Offer — VO render manifest
+# seed_audio | speech_rate=10 (=1.1x) | sample_rate=44100 | 40 lines
+# idx|speaker|job_id|result_url
+1|SARAH|0ab607b3-53d4-4cf9-ba70-2072bf987d54|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_140220_0ab607b3-53d4-4cf9-ba70-2072bf987d54.wav
+2|NIA|12df52ba-b218-4a5f-aaa2-bc30f5f5c5b9|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_140220_12df52ba-b218-4a5f-aaa2-bc30f5f5c5b9.wav
+3|SARAH|198069ea-1f23-452c-a07e-615f672c12b4|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_140220_198069ea-1f23-452c-a07e-615f672c12b4.wav
+4|NIA|c82009fd-d001-42d0-97d7-c977a8dc91e9|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_140220_c82009fd-d001-42d0-97d7-c977a8dc91e9.wav
+5|SARAH|aee894b6-0279-45e2-86ea-ac91ff4d5244|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_140220_aee894b6-0279-45e2-86ea-ac91ff4d5244.wav
+6|NIA|e7d3e7bf-2f04-4311-b100-0f1b09744e30|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_140220_e7d3e7bf-2f04-4311-b100-0f1b09744e30.wav
+7|SARAH|b2d6db91-79ba-4943-a682-1d26a6a10ae4|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_140220_b2d6db91-79ba-4943-a682-1d26a6a10ae4.wav
+8|NIA|cc123837-22f4-481c-a1d2-29b782ed980a|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_140220_cc123837-22f4-481c-a1d2-29b782ed980a.wav
+9|SARAH|c666dbf4-d43b-4090-8ba0-ead822c0d066|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_140221_c666dbf4-d43b-4090-8ba0-ead822c0d066.wav
+10|NIA|fe10b646-fa5d-4529-b0a8-a40845bd3dcc|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_140220_fe10b646-fa5d-4529-b0a8-a40845bd3dcc.wav
+11|SARAH|b14b0184-b42f-4453-afe7-5cfbddbd442f|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_140220_b14b0184-b42f-4453-afe7-5cfbddbd442f.wav
+12|NIA|f7706b95-0d77-4f82-ab5a-2d0403665bb0|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_140220_f7706b95-0d77-4f82-ab5a-2d0403665bb0.wav
+13|SARAH|f8490982-0f0b-4ece-8ba3-c45ce2b92274|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_145054_f8490982-0f0b-4ece-8ba3-c45ce2b92274.wav
+14|NIA|0ee7673d-d71a-4236-bc15-68cda03f45a3|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_145054_0ee7673d-d71a-4236-bc15-68cda03f45a3.wav
+15|SARAH|9a6907cf-1171-42e7-a91f-9c9a51dba47b|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_145054_9a6907cf-1171-42e7-a91f-9c9a51dba47b.wav
+16|NIA|db149c55-40e4-4f81-bc00-589d258d260a|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_145054_db149c55-40e4-4f81-bc00-589d258d260a.wav
+17|SARAH|5b8c2519-b9c4-48be-b6b1-8fd69fa59eca|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_145054_5b8c2519-b9c4-48be-b6b1-8fd69fa59eca.wav
+18|NIA|6f60f6df-f01e-483c-b7f7-6060da96c4a0|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_145054_6f60f6df-f01e-483c-b7f7-6060da96c4a0.wav
+19|SARAH|af483966-b3f4-4431-816b-106207aada70|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_145054_af483966-b3f4-4431-816b-106207aada70.wav
+20|NIA|73f2c733-18bc-478f-8b25-2c486a8628d7|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_145054_73f2c733-18bc-478f-8b25-2c486a8628d7.wav
+21|SARAH|490e904a-b8b8-4010-be5c-277fdf7651fb|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_145054_490e904a-b8b8-4010-be5c-277fdf7651fb.wav
+22|NIA|de5375a6-024c-4e11-8df9-18a2057524f8|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_145054_de5375a6-024c-4e11-8df9-18a2057524f8.wav
+23|SARAH|a204152e-5b01-46fd-af9f-76e37e659105|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_145054_a204152e-5b01-46fd-af9f-76e37e659105.wav
+24|NIA|9234e9bb-5b54-4b9a-8db5-ea9f83884c48|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_145054_9234e9bb-5b54-4b9a-8db5-ea9f83884c48.wav
+25|SARAH|64af5eca-9b1c-4af0-817a-8f5ca0a663ac|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_152151_64af5eca-9b1c-4af0-817a-8f5ca0a663ac.wav
+26|NIA|959b0dde-5280-4b8a-8e8b-6588c907efea|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_152151_959b0dde-5280-4b8a-8e8b-6588c907efea.wav
+27|SARAH|5dfec3d3-8cd9-4d0e-86a4-3a3c465b8b4b|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_152151_5dfec3d3-8cd9-4d0e-86a4-3a3c465b8b4b.wav
+28|NIA|525c2db0-aa63-4325-b5c1-c7b118baf40b|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_152151_525c2db0-aa63-4325-b5c1-c7b118baf40b.wav
+29|SARAH|bc2b76d5-2062-4942-9d82-d7a15f0a28fe|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_152151_bc2b76d5-2062-4942-9d82-d7a15f0a28fe.wav
+30|NIA|aca5a432-4f6a-4ec2-99dd-26266a8d2e0c|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_152151_aca5a432-4f6a-4ec2-99dd-26266a8d2e0c.wav
+31|SARAH|49d7eb8a-5e1c-439f-a49f-869da2f76233|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_152151_49d7eb8a-5e1c-439f-a49f-869da2f76233.wav
+32|NIA|2dbca2e6-4deb-4768-807b-fea5a8334336|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_152151_2dbca2e6-4deb-4768-807b-fea5a8334336.wav
+33|SARAH|13f7f13e-6308-418a-a616-3db567f12df2|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_152151_13f7f13e-6308-418a-a616-3db567f12df2.wav
+34|NIA|506bf3e5-2713-4c08-91b9-9938634fa1d9|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_152151_506bf3e5-2713-4c08-91b9-9938634fa1d9.wav
+35|SARAH|25e8c032-3b49-45c7-83ce-8920891d8156|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_152151_25e8c032-3b49-45c7-83ce-8920891d8156.wav
+36|NIA|727e7b20-b45a-4a2e-9ef3-0668a22d2031|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_152151_727e7b20-b45a-4a2e-9ef3-0668a22d2031.wav
+37|SARAH|7efeca0d-9f58-4d89-9328-a69256cc43f5|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_152355_7efeca0d-9f58-4d89-9328-a69256cc43f5.wav
+38|NIA|c21497e9-70dc-4c86-ab05-d03cc674ab14|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_152355_c21497e9-70dc-4c86-ab05-d03cc674ab14.wav
+39|SARAH|f711c2e4-f376-4862-944b-e78df3f78466|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_152355_f711c2e4-f376-4862-944b-e78df3f78466.wav
+40|NIA|93ef361f-2271-4802-90f7-d546df7d34c4|https://d8j0ntlcm91z4.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/hf_20260813_152355_93ef361f-2271-4802-90f7-d546df7d34c4.wav
