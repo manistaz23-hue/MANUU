@@ -9,6 +9,7 @@ clicks and no clipped word onsets.
 """
 
 import argparse
+import sys
 import wave
 
 import numpy as np
@@ -144,6 +145,29 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Remove dead air from a 16-bit WAV")
     ap.add_argument("input")
     ap.add_argument("-o", "--output", help="defaults to <input>_cleaned.wav")
+    ap.add_argument("--pause", type=float, default=TARGET_PAUSE,
+                    help=f"seconds of pause left where a long gap was (default {TARGET_PAUSE})")
+    ap.add_argument("--min-sil", type=float, default=MIN_SIL,
+                    help=f"gaps shorter than this are left alone (default {MIN_SIL})")
+    ap.add_argument("--guard", type=float, default=GUARD,
+                    help=f"room tone kept either side of speech (default {GUARD})")
+    ap.add_argument("--back-to-back", action="store_true",
+                    help="tightest usable spacing: 0.14s total silence between phrases")
+    ap.add_argument("--threshold", type=float, default=TH_DB,
+                    help=f"silence threshold in dBFS (default {TH_DB})")
     args = ap.parse_args()
+
+    if args.back_to_back:
+        # Total silence between phrases is guard + pause + guard, so the guard
+        # has to come down too or 0.28s survives every cut.
+        args.guard, args.pause, args.min_sil = 0.040, 0.060, 0.160
+    if args.pause >= args.min_sil:
+        # a target at or above the threshold can never shorten anything
+        sys.exit(f"--pause ({args.pause}) must be below --min-sil ({args.min_sil})")
+    TARGET_PAUSE, MIN_SIL, TH_DB, GUARD = (args.pause, args.min_sil,
+                                           args.threshold, args.guard)
+    print(f"spacing: {GUARD:.3f}s guard + {TARGET_PAUSE:.3f}s pause + {GUARD:.3f}s guard "
+          f"= {2 * GUARD + TARGET_PAUSE:.3f}s between phrases")
+
     out = args.output or args.input.rsplit(".", 1)[0] + "_cleaned.wav"
     clean(args.input, out)
