@@ -20,7 +20,7 @@ from pathlib import Path
 
 ROLES = ["hook", "refusal", "arrival", "escalation", "backfire", "payoff"]
 
-WORDS_MIN, WORDS_MAX = 22, 26
+WORDS_MIN, WORDS_MAX = 16, 28   # loose sanity band only — the real gate is seconds
 TURNS_MIN, TURNS_MAX = 3, 4
 MAX_SPEAKERS_PER_BLOCK = 2
 MAX_TURN_WORDS = 12
@@ -29,6 +29,7 @@ MAX_KICKER_WORDS = 6
 MAX_REFS_PER_BLOCK = 7
 SHOTS_PER_BLOCK = 4
 MAX_CONSECUTIVE_SAME_LOCATION = 2
+PAUSE_SECONDS = 0.35   # measured cost of one sentence break inside a turn
 
 FILLER = {"basically", "literally", "actually", "um", "uh", "kinda", "sorta"}
 FILLER_PHRASES = ["you know", "i mean", "sort of", "kind of"]
@@ -57,7 +58,21 @@ STOPWORDS = {
 
 
 def words(text):
-    return re.findall(r"[a-z0-9']+", text.lower())
+    """Tokens as a voice actor would count them — a hyphenated compound is one word."""
+    return re.findall(r"[a-z0-9']+(?:-[a-z0-9']+)*", text.lower())
+
+
+def load_voices():
+    path = Path(__file__).resolve().parent.parent / "voices.json"
+    if not path.exists():
+        return None
+    return json.loads(path.read_text())
+
+
+def wps_for(speaker, voices):
+    """Median measured words-per-second for this speaker's voice."""
+    entry = voices.get("cast", {}).get(speaker) or voices.get("guest_default", {})
+    return entry.get("wps", 2.7)
 
 
 class Report:
@@ -148,7 +163,7 @@ def check_block_dialogue(ep, r):
             if len(w) > MAX_TURN_WORDS:
                 r.err(where, f"{t.get('speaker')} has a {len(w)}-word turn (max {MAX_TURN_WORDS}): \"{t.get('line')}\"")
         if not WORDS_MIN <= total <= WORDS_MAX:
-            r.err(where, f"{total} words; needs {WORDS_MIN}–{WORDS_MAX}")
+            r.err(where, f"{total} words; outside the sanity band {WORDS_MIN}–{WORDS_MAX}")
 
         if "gut" not in distinct:
             r.warn(where, "Gut is not in this block — Gut is the through-line character")
@@ -170,6 +185,62 @@ def check_block_dialogue(ep, r):
                 for j in range(i + 1, min(i + 4, len(content))):
                     if content[i] == content[j]:
                         r.warn(where, f"'{content[i]}' repeats inside one turn: \"{t.get('line')}\"")
+
+
+def check_speech_budget(ep, r, voices):
+    """Will this block's dialogue fit in ten seconds, with room to breathe?
+
+    Word counts alone lie: the cast does not speak at one rate. Measured over 31 ep01
+    takes, GUT runs a median 3.28 words/sec and YUVI 1.65 — the same 24-word block is
+    7.6s in one pairing and 11.3s in another. Budget in seconds, per voice, and charge
+    each sentence break inside a turn for the beat of silence it buys.
+
+    Estimates carry about +/- 0.9s of line-to-line noise, which is why there are two
+    thresholds: above `max_fit` it will not physically hold, above `max_comfortable` the
+    turn gaps squeeze under 0.2s and it sounds crammed. The authoritative number is still
+    what the assembler measures; this is the cheap check that runs before you spend.
+    """
+    if not voices:
+        r.warn("episode", "voices.json not found — speech budget not checked")
+        return
+    budget = voices["speech_budget"]
+    fit, comfy, floor = budget["max_fit"], budget["max_comfortable"], budget["min"]
+    pause = voices.get("pause_seconds", 0.35)
+    for b in ep.get("blocks", []):
+        where = f"block {b.get('n')}"
+        # A block that has been through the audio pass carries its real duration. Once
+        # that exists, the estimate is noise — gate on the measurement.
+        actual = b.get("measured_speech")
+        if actual is not None:
+            if actual > fit:
+                r.err(where, f"{actual}s of speech measured, and {fit}s is all a 10s block holds")
+            elif actual > comfy:
+                r.err(where, f"{actual}s of speech measured, over the {comfy}s comfortable "
+                             f"ceiling — trim a turn and regenerate it")
+            elif actual < floor:
+                r.err(where, f"{actual}s of speech measured, floor {floor}s — dead air")
+            else:
+                r.warn(where, f"{actual}s of speech (measured)")
+            continue
+        est, slowest = 0.0, None
+        for t in b.get("turns", []):
+            rate = wps_for(t.get("speaker"), voices)
+            line = t.get("line", "")
+            breaks = max(0, len(re.findall(r"[.!?]", line)) - 1)
+            est += len(words(line)) / rate + breaks * pause
+            if slowest is None or rate < slowest[1]:
+                slowest = (t.get("speaker"), rate)
+        if est > fit:
+            r.err(where, f"~{est:.1f}s of speech, and {fit}s is all a 10s block holds — "
+                         f"{slowest[0]} runs {slowest[1]} words/sec; cut that turn first")
+        elif est > comfy:
+            r.err(where, f"~{est:.1f}s of speech, over the {comfy}s comfortable ceiling — "
+                         f"the turn gaps will squeeze under 0.2s and sound crammed "
+                         f"({slowest[0]} is the slow one)")
+        elif est < floor:
+            r.err(where, f"~{est:.1f}s of speech, floor {floor}s — the block will sit in dead air")
+        else:
+            r.warn(where, f"~{est:.1f}s of speech (fits, {comfy}s ceiling)")
 
 
 def check_cold_open_and_kicker(ep, r):
@@ -275,6 +346,7 @@ def validate(path):
     check_caption(ep, r)
     check_through_line(ep, r)
     check_block_dialogue(ep, r)
+    check_speech_budget(ep, r, load_voices())
     check_cold_open_and_kicker(ep, r)
     check_profanity(ep, r)
     check_repeats(ep, r)

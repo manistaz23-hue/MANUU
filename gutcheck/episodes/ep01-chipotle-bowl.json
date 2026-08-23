@@ -54,21 +54,30 @@
       "turns": [
         {
           "speaker": "pipes",
-          "line": "Incoming delivery. Real big one."
+          "line": "Incoming delivery. Real big one.",
+          "take_job_id": "e1f7a95c-e61e-43f9-99b4-48716a318ca0",
+          "take_seconds": 2.39
         },
         {
           "speaker": "gut",
-          "line": "How big are we talking?"
+          "line": "How big are we talking?",
+          "take_job_id": "a79cffb2-a78d-407a-a728-58f33d4958a7",
+          "take_seconds": 1.19
         },
         {
           "speaker": "pipes",
-          "line": "Foil. Double wrapped. It's a burrito bowl."
+          "line": "Double wrapped. It's a burrito bowl.",
+          "take_job_id": "cb728064-df33-4c17-877a-66dbc92d7416",
+          "take_seconds": 2.01
         },
         {
           "speaker": "gut",
-          "line": "With the guac? She paid extra again?"
+          "line": "She paid extra for guac again?",
+          "take_job_id": "6765e658-521c-41fa-a0d9-b097d3ad7111",
+          "take_seconds": 2.76
         }
-      ]
+      ],
+      "measured_speech": 8.34
     },
     {
       "n": 2,
@@ -92,21 +101,30 @@
       "turns": [
         {
           "speaker": "gut",
-          "line": "Send it back. All of it."
+          "line": "Send it back. All of it.",
+          "take_job_id": "b86b686f-53f1-4be3-85bd-d1f8fde3e75a",
+          "take_seconds": 1.84
         },
         {
           "speaker": "pipes",
-          "line": "I can't send anything back."
+          "line": "I can't send anything back.",
+          "take_job_id": "2378bd53-df52-450e-bb83-2a89c2b2037d",
+          "take_seconds": 1.4
         },
         {
           "speaker": "gut",
-          "line": "We are not doing a full bowl today."
+          "line": "We are not doing a full bowl today.",
+          "take_job_id": "b0979c1f-9e73-4a41-9fb9-dbeccc76f55a",
+          "take_seconds": 2.16
         },
         {
           "speaker": "pipes",
-          "line": "Don't shoot the messenger. It's already moving."
+          "line": "Don't shoot the messenger. It's already moving.",
+          "take_job_id": "850344f7-b9a4-41f5-8e9f-4db4d6872f7f",
+          "take_seconds": 2.25
         }
-      ]
+      ],
+      "measured_speech": 7.65
     },
     {
       "n": 3,
@@ -128,21 +146,30 @@
       "turns": [
         {
           "speaker": "gut",
-          "line": "No. No. No."
+          "line": "No. No.",
+          "take_job_id": "d6c7ac34-b3ca-45a3-bf76-8099977385ea",
+          "take_seconds": 1.28
         },
         {
           "speaker": "burrito_bowl",
-          "line": "Hey! Room for one more?"
+          "line": "Hey! Room for one more?",
+          "take_job_id": "5dd3b93e-27c6-4f58-9b6c-731a92d086a3",
+          "take_seconds": 1.63
         },
         {
           "speaker": "gut",
-          "line": "Who let you in here?"
+          "line": "Who let you in here?",
+          "take_job_id": "cfd68742-9523-487a-8f50-0aa16b5d9423",
+          "take_seconds": 1.06
         },
         {
           "speaker": "burrito_bowl",
-          "line": "White rice, black beans, and four scoops of guac!"
+          "line": "White rice, black beans, four scoops of guac!",
+          "take_job_id": "cb40ff74-527c-45ae-a79e-7202522ecc0f",
+          "take_seconds": 3.67
         }
-      ]
+      ],
+      "measured_speech": 7.64
     },
     {
       "n": 4,
@@ -166,21 +193,30 @@
       "turns": [
         {
           "speaker": "gut",
-          "line": "HQ! Situation down here."
+          "line": "HQ! Situation down here.",
+          "take_job_id": "a6b76089-8a7c-4f7b-a547-bb3f63221c5d",
+          "take_seconds": 2.19
         },
         {
           "speaker": "hq",
-          "line": "Hold on. Let me look it up."
+          "line": "Hold on. Looking it up.",
+          "take_job_id": "c459eb4c-1bf8-466a-b4b6-0de80490f057",
+          "take_seconds": 2.26
         },
         {
           "speaker": "gut",
-          "line": "It came with a tortilla on the side."
+          "line": "It came with a tortilla.",
+          "take_job_id": "8c9da88f-faf9-417e-bf71-4a81bafbe10d",
+          "take_seconds": 1.21
         },
         {
           "speaker": "hq",
-          "line": "A side tortilla. For the bowl."
+          "line": "A tortilla. For the bowl.",
+          "take_job_id": "346ac620-ca4e-43e1-98f9-8044b7bee8da",
+          "take_seconds": 2.81
         }
-      ]
+      ],
+      "measured_speech": 8.48
     },
     {
       "n": 5,
@@ -204,21 +240,30 @@
       "turns": [
         {
           "speaker": "gut",
-          "line": "HQ, hit the button. Right now."
+          "line": "HQ, hit the button.",
+          "take_job_id": "420fad96-bde2-4b71-8373-5affc95b6a3c",
+          "take_seconds": 1.36
         },
         {
           "speaker": "yuvi",
-          "line": "Easy now. Nobody's hitting anything."
+          "line": "Nobody's hitting anything.",
+          "take_job_id": "8d8c561f-98f7-4a54-8cb8-5ce957d4daba",
+          "take_seconds": 1.63
         },
         {
           "speaker": "gut",
-          "line": "Yuvi, this does not concern you."
+          "line": "Yuvi, this does not concern you.",
+          "take_job_id": "588b678e-0476-49e2-82f5-c39868c3af7f",
+          "take_seconds": 1.83
         },
         {
           "speaker": "yuvi",
-          "line": "It's YOU-vyoo-la. And I like the guac."
+          "line": "It's YOU-vyoo-la. I like guac.",
+          "take_job_id": "b996169a-1ed8-44ee-9b2f-9871c3b88553",
+          "take_seconds": 4.39
         }
-      ]
+      ],
+      "measured_speech": 9.21
     },
     {
       "n": 6,
@@ -242,21 +287,36 @@
       "turns": [
         {
           "speaker": "gut",
-          "line": "Look at the monitor. She's ordering more chips."
+          "line": "Look at the monitor. She's ordering more chips.",
+          "take_job_id": "290c94eb-1a96-48f6-9705-0d6e565ef045",
+          "take_seconds": 2.53
         },
         {
           "speaker": "rusty",
-          "line": "Chips and queso. The large one."
+          "line": "Chips and queso. The large one.",
+          "take_job_id": "6da20ba1-dc21-425b-af50-2abb72784135",
+          "take_seconds": 2.08
         },
         {
           "speaker": "gut",
-          "line": "I just cleaned in here."
+          "line": "I just cleaned in here.",
+          "take_job_id": "872f94f9-4481-466e-8fb0-eb81e18a608d",
+          "take_seconds": 1.21
         },
         {
           "speaker": "rusty",
-          "line": "See y'all in twenty minutes."
+          "line": "See y'all in twenty minutes.",
+          "take_job_id": "ee0493b1-7819-4f0d-8e9e-e341bce370af",
+          "take_seconds": 1.68
         }
-      ]
+      ],
+      "measured_speech": 7.5
     }
-  ]
+  ],
+  "audio": {
+    "status": "recorded",
+    "master_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3EP9SP2r5iXI2tpVbHS353E2m5O/e5380615-fd13-4a91-83d5-3242254ac414.mp3",
+    "master_seconds": 60.03,
+    "note": "block 5 sits at 9.21s of speech, so its turn gaps are 0.16s -- audibly tight. Recast YUVI to a faster voice or cut turn 54 further before the video pass."
+  }
 }

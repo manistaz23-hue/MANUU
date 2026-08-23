@@ -23,7 +23,7 @@ Eating a Chipotle bowl right now:
 | Length | 60 s — six 10-second blocks |
 | Frame | 1080×1920, 9:16, 24 fps |
 | Cast | 9 recurring organs + 1 guest food per episode |
-| Per block | 4 hard cuts, 2 speakers, 3–4 turns, 22–26 words |
+| Per block | 4 hard cuts, 2 speakers, 3–4 turns, 5.5–8.6s of speech |
 | Structure | hook → refusal → it's already here → call HQ → the plan fails → payoff |
 | On-screen text | one static caption plate, top-center, unchanged for the whole video |
 | Music | none — it kills comic timing in a two-hander |
@@ -42,15 +42,19 @@ memory; if it is lost, so is visual continuity.
 # 1. gate the script before spending anything
 python3 pipeline/validate_episode.py episodes/ep01-chipotle-bowl.json
 
-# 2. build the generation payloads
+# 2. record the dialogue FIRST — the performance sets the timing, and a line that
+#    does not fit costs one audio job to fix here vs. six video jobs to fix later
+#    (see docs/06 Phase 1b)
+
+# 3. build the generation payloads
 python3 pipeline/build_payloads.py episodes/ep01-chipotle-bowl.json
 #    -> build/ep01-chipotle-bowl/video_batch.json   (6 indexed gemini_omni requests)
 #    -> build/ep01-chipotle-bowl/guest_asset.json   (this episode's food, 1 image)
 #    -> build/ep01-chipotle-bowl/blocks/*.txt       (the same prompts, readable)
 
-# 3. submit the batch, wait for all six, download them as block01.mp4 … block06.mp4
+# 4. submit the batch, wait for all six, download them as block01.mp4 … block06.mp4
 
-# 4. assemble
+# 5. assemble
 bash pipeline/assemble_episode.sh \
      --episode episodes/ep01-chipotle-bowl.json \
      --blocks  build/ep01-chipotle-bowl/clips
@@ -121,8 +125,10 @@ Everything else in `docs/` is elaboration on these six:
    video and a channel.
 3. **Two speakers per block, never three.** The reference never breaks this and it is why
    every exchange lands.
-4. **22–26 words per block.** Under 20 is dead air, over 30 gets the last turn truncated
-   by the model. The validator enforces it; do not widen the band to make it pass.
+4. **Budget in seconds, not words — and record the audio first.** The cast does not
+   speak at one rate: measured over 31 takes, GUT runs 3.28 words/sec and YUVI 1.65, so
+   the same 24-word block is 7.6s in one pairing and 11.3s in another. A 10s block holds
+   5.5–8.6s of speech. `voices.json` carries the measured rates; re-measure on any recast.
 5. **PG-13 ceiling.** The reference's profanity is a limited-ads flag on YouTube and a
    reach cap on TikTok. Keep the cadence, swap the words — table in `docs/02`.
 6. **The last frame of the video is the last frame of the joke.** No end card, no outro,
@@ -138,6 +144,7 @@ Everything else in `docs/` is elaboration on these six:
   written from scratch to sit in the same visual family. Feeding another creator's actual
   frames in to clone their look is a different thing, and not one worth doing on a channel
   you intend to monetize.
-- **No episode here has been rendered yet.** Every script passes the gate and every
+- **Only ep01's audio exists so far.** The other eleven episodes were written to the old word band and now fail the recalibrated seconds gate; they need a trim pass, which is deliberately held until the ep01 voice casting is approved (recasting a voice changes the rates and would invalidate the trims).
+- **No episode has been rendered to video yet.** Every script passes the gate and every
   payload builds, but the visual side is unproven until the first cast sheet comes back.
   Budget the first episode as the one that also designs the channel.

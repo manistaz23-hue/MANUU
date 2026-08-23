@@ -17,25 +17,53 @@ Blocks 3 and 5 are where episodes differ from each other. Blocks 1, 2 and 6 are 
 formulaic on purpose — that repetition is what makes it a format viewers recognize on
 the third video.
 
-## Word budget — the number that actually matters
+## Speech budget — the number that actually matters
 
-A 10-second block with two speakers trading turns needs **22–26 spoken words total**.
+**Budget in seconds, not words.** This was learned the expensive way: the first draft of
+this channel used a 22–26 word band per block, derived from an assumed 2.7 words/sec.
+Then ep01 was actually recorded, and the assumption fell apart.
 
-Why that band:
-- Conversational American delivery runs ~2.6–2.9 words per second.
-- Two speakers taking three or four turns burns ~1.2 s in turn-taking gaps.
-- 24 words ÷ 2.7 wps ≈ 8.9 s of speech + 1.1 s of gaps = a full 10 s block.
+Measured across 31 real takes:
 
-| Words in a block | Result |
+| Voice | Character | Median words/sec |
+|---|---|---|
+| PTO Meme Voice | GUT | 3.28 |
+| Benji | PIPES | 2.68 |
+| Barrett | RUSTY | 2.93 |
+| Cody | guest food | 2.63 |
+| Emmett | HQ | 2.00 |
+| Romy | YUVI | 1.65 |
+
+That is a 2× spread. The same 24-word block runs 7.6 seconds in a GUT/PIPES pairing and
+11.3 seconds in a GUT/YUVI pairing — one fits comfortably and one does not fit at all.
+A word count cannot tell those apart, so it is the wrong unit.
+
+**The budget, per 10-second block:**
+
+| Speech in the block | Result |
 |---|---|
-| under 20 | dead air; the block reads as a slideshow |
-| 22–26 | **correct** |
-| 27–30 | rushed, the model swallows syllables |
-| over 30 | the model truncates the last turn entirely |
+| under 5.5s | dead air |
+| 5.5 – 8.6s | **correct** — turn gaps land around 0.28s |
+| 8.6 – 9.4s | fits, but gaps squeeze under 0.2s and it sounds crammed |
+| over 9.4s | does not fit; the assembler will flag it |
 
-Enforce it with `pipeline/validate_episode.py` before you spend a single credit.
+Rates live in `voices.json` and `pipeline/validate_episode.py` gates against them.
+**Re-measure and update that file whenever a voice is recast** — a stale rate silently
+lets an over-long block through.
 
-Sub-budgets:
+Two more things the recording taught us, both now in the estimator:
+
+- **Sentence breaks cost real time.** "No. No. No." measured 2.88 seconds for three
+  words. The pauses are the runtime. Each sentence break inside a turn is charged 0.35s.
+- **Estimates carry about ±0.9s of line-to-line noise.** GUT came back anywhere between
+  1.8 and 4.7 words/sec depending on the line. So once a block has actually been
+  recorded, its `measured_speech` goes into the episode file and the gate uses that
+  instead — measurement beats estimate, always.
+
+Rough word counts still apply as a sanity band (16–28 per block), but they are a
+smell test, not the gate.
+
+Sub-budgets, unchanged:
 - **Turns per block:** 3 or 4. Never 2 (too static), never 5 (too dense).
 - **Longest single turn:** 12 words. If a line is longer, it is exposition — cut it.
 - **Shortest turn:** 1 word is legal and often the funniest ("Lettuce?").
@@ -110,7 +138,7 @@ lunch" is better.
 An episode is ready to shoot when all of these are true:
 
 - [ ] Exactly 6 blocks
-- [ ] Every block 22–26 words, ≤2 speakers, 3–4 turns
+- [ ] Every block 5.5–8.6s of estimated speech, ≤2 speakers, 3–4 turns
 - [ ] Block 1's first line ≤8 words, and names the food by the end of block 1
 - [ ] Every block is a disagreement
 - [ ] Through-line object named and in all 6 blocks, escalating monotonically

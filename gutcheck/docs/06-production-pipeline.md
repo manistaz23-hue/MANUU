@@ -101,6 +101,34 @@ design you are stuck with for every future episode.
 
 ---
 
+## Phase 1b — Record the dialogue BEFORE any picture
+
+**Do the audio first.** The performance decides the timing, and the timing decides the
+shot lengths — not the other way round. Recording first is also the cheapest possible
+place to find out a block does not fit: a re-recorded line costs one audio generation,
+while the same discovery after the video pass costs six video generations.
+
+On ep01 this caught three blocks the word count had passed: 9.7s, 9.7s and 11.3s of
+speech in 10-second blocks. Seven lines were rewritten and re-recorded for the price of
+seven audio jobs.
+
+1. Submit every turn as its own indexed take through `generate_audio_batch`
+   (`text2speech_v2`, `variant:"elevenlabs"`), indexed `blockNN` → e.g. `34` is block 3,
+   turn 4. Each character carries its own `voice_id`/`voice_type` from `voices.json`.
+   Two batches of 12 covers a 24-turn episode.
+2. Wait with `jobs_wait`, then assemble in the sandbox: trim each take's leading and
+   trailing padding (never its internal pauses — those are the performance), lay the four
+   turns out with a 0.30s lead-in and 0.28s turn gaps, and pad each block to exactly 10s.
+3. **Verify what each take says, not just how long it is.** Transcribe every take with
+   Whisper in the sandbox and diff it against the script. Under load, TTS has been known
+   to return the right length and the wrong words.
+4. Write the measured per-block speech back into the episode file as `measured_speech`,
+   and the take job ids onto each turn. Re-run the validator: from then on it gates on
+   the measurement rather than the estimate.
+5. Any block over 8.6s: cut the slowest speaker's turn and re-record **only that line.**
+
+The block audio you now have is what the video is cut to.
+
 ## Phase 2 — Per episode: build the block prompts
 
 ```

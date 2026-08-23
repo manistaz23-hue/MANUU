@@ -1,0 +1,93 @@
+{
+  "_comment": "Cast and MEASURED speaking rates, from 31 real takes in the ep01 audio pass. wps is the MEDIAN observed rate for that voice; individual lines vary a lot around it (GUT ranged 1.8-4.7 depending on the line), so treat the estimate as +/- 0.9s. Validated against the six assembled ep01 blocks: mean absolute error 0.68s. Re-measure on recast.",
+  "block_seconds": 10.0,
+  "speech_budget": {
+    "max_fit": 9.4,
+    "max_comfortable": 8.6,
+    "min": 5.5,
+    "_why": "above ~9.4s of speech a 10s block cannot hold the four turns plus any gap at all; above 8.6s the gaps squeeze under 0.2s and it sounds crammed -- ep01 blocks 1 and 3 landed there on the first pass and had to be trimmed"
+  },
+  "pause_seconds": 0.35,
+  "_pause_why": "cost of one sentence break inside a turn. 'No. No. No.' measured 2.88s for three words -- the pauses are the runtime, not the words.",
+  "cast": {
+    "gut": {
+      "character": "GUT",
+      "voice": "PTO Meme Voice",
+      "voice_id": "fdd8dca2-b602-417f-8c34-0a4cf186fe1d",
+      "voice_type": "element",
+      "takes": 12,
+      "wps": 3.28
+    },
+    "pipes": {
+      "character": "PIPES",
+      "voice": "Benji",
+      "voice_id": "e6f9b893-51b1-51d3-afe9-9e0482cb7ac1",
+      "voice_type": "preset",
+      "takes": 4,
+      "wps": 2.68
+    },
+    "hq": {
+      "character": "HQ",
+      "voice": "Emmett",
+      "voice_id": "3c7d32be-0182-5c5e-aa6a-663409bfbb26",
+      "voice_type": "preset",
+      "takes": 4,
+      "wps": 2.0
+    },
+    "yuvi": {
+      "character": "YUVI",
+      "voice": "Romy",
+      "voice_id": "2e5f5f01-6d50-5335-a9ae-e8f81cd42342",
+      "voice_type": "preset",
+      "takes": 4,
+      "wps": 1.65
+    },
+    "rusty": {
+      "character": "RUSTY",
+      "voice": "Barrett",
+      "voice_id": "d603a8cd-3fe1-55e0-9245-617a2589131e",
+      "voice_type": "preset",
+      "takes": 2,
+      "wps": 2.93
+    },
+    "liv": {
+      "character": "LIV",
+      "voice": "Delia",
+      "voice_id": "1550321e-7f5b-526e-b001-02328b03e9bc",
+      "voice_type": "preset",
+      "takes": 0,
+      "wps": 2.7
+    },
+    "loops": {
+      "character": "LOOPS",
+      "voice": "Gracie",
+      "voice_id": "09878754-f20b-5330-9790-58a8027ab5b2",
+      "voice_type": "preset",
+      "takes": 0,
+      "wps": 2.7
+    },
+    "buzz": {
+      "character": "BUZZ",
+      "voice": "Annie",
+      "voice_id": "f2801b0f-e345-598e-86f5-8364d886d96b",
+      "voice_type": "preset",
+      "takes": 0,
+      "wps": 2.7
+    },
+    "pancho": {
+      "character": "PANCHO",
+      "voice": "Reid",
+      "voice_id": "66469f5a-10db-586a-bab1-72f6ee66ba69",
+      "voice_type": "preset",
+      "takes": 0,
+      "wps": 2.7
+    }
+  },
+  "guest_default": {
+    "voice": "Cody",
+    "voice_id": "1ffcdbb3-078b-5491-959d-359e3021e917",
+    "voice_type": "preset",
+    "takes": 2,
+    "wps": 2.63
+  }
+}
