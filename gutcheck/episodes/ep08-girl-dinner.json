@@ -1,0 +1,258 @@
+{
+  "id": "ep08",
+  "slug": "girl-dinner",
+  "vein": "sad American realism",
+  "food": "girl dinner",
+  "food_keywords": [
+    "cheese",
+    "olives",
+    "dinner"
+  ],
+  "caption": "Girl dinner, going down right now:",
+  "title": "Girl dinner, going down right now 🫥",
+  "hashtags": [
+    "#girldinner",
+    "#foodtok",
+    "#relatable",
+    "#dinner",
+    "#cartoon"
+  ],
+  "accent_color": "#E8D44D",
+  "kicker": "This is the real dinner.",
+  "through_line": {
+    "name": "the cheese stick",
+    "prop_prompt": "a single cylindrical stick of string cheese, half peeled out of its plastic wrapper, pale yellow and slightly bent, with four small dark olives beside it",
+    "progression": [
+      "one small pale shape descending alone",
+      "the cheese stick coming down, very slowly, very alone",
+      "the cheese stick lands and introduces itself",
+      "four olives arrive and the floor is still mostly empty",
+      "nothing new arrives, the room stays bare",
+      "a very large block of cheese fills the whole opening"
+    ]
+  },
+  "blocks": [
+    {
+      "n": 1,
+      "role": "hook",
+      "location": "esophagus",
+      "characters": [
+        "pipes",
+        "gut"
+      ],
+      "props": [
+        "cheese_stick"
+      ],
+      "through_line_state": "one small pale shape descending alone",
+      "sfx": "a plastic wrapper crinkle, a faint echo, a swallow",
+      "shots": [
+        "MEDIUM, eye level: Pipes peering upward into a very quiet tube",
+        "CLOSE, low angle: Gut perking up, eyes bright for once",
+        "MEDIUM, high angle: one small pale shape drifting down alone",
+        "CLOSE on the eyes: Gut waiting for the rest, which does not come"
+      ],
+      "turns": [
+        {
+          "speaker": "pipes",
+          "line": "Okay. Something's finally coming down."
+        },
+        {
+          "speaker": "gut",
+          "line": "Good. What are we getting?"
+        },
+        {
+          "speaker": "pipes",
+          "line": "One cheese stick. And four olives."
+        },
+        {
+          "speaker": "gut",
+          "line": "That's dinner? That's the entire dinner?"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "refusal",
+      "location": "esophagus",
+      "characters": [
+        "gut",
+        "pipes"
+      ],
+      "props": [
+        "cheese_stick"
+      ],
+      "through_line_state": "the cheese stick coming down, very slowly, very alone",
+      "sfx": "a slow scrape, a hollow echo, a creak",
+      "shots": [
+        "CLOSE, low angle: Gut yelling upward, tube echoing back",
+        "MEDIUM, eye level: Pipes holding the small shape apologetically",
+        "MEDIUM, high angle: the empty tube stretching away above",
+        "CLOSE on Pipes' eyes avoiding contact"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "Send it back and get real food."
+        },
+        {
+          "speaker": "pipes",
+          "line": "There is no real food coming."
+        },
+        {
+          "speaker": "gut",
+          "line": "She stood at the counter an hour."
+        },
+        {
+          "speaker": "pipes",
+          "line": "Then she sat down. That's it."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "arrival",
+      "location": "stomach",
+      "characters": [
+        "gut",
+        "cheese_stick"
+      ],
+      "props": [],
+      "through_line_state": "the cheese stick lands and introduces itself",
+      "sfx": "a small plop, a soft echo, a cheerful chirp",
+      "shots": [
+        "MEDIUM, high angle: the cheese stick landing in an enormous empty cavity",
+        "CLOSE, low angle: two small friendly eyes opening on it",
+        "MEDIUM, eye level: Gut looking around at all the empty space",
+        "CLOSE on the eyes: Gut and the cheese stick, alone together"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "Where's the rest of you?"
+        },
+        {
+          "speaker": "cheese_stick",
+          "line": "Hi! It's just me tonight!"
+        },
+        {
+          "speaker": "gut",
+          "line": "You're a stick of cheese."
+        },
+        {
+          "speaker": "cheese_stick",
+          "line": "And four olives! They're right behind me!"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "escalation",
+      "location": "brain_room",
+      "characters": [
+        "gut",
+        "hq"
+      ],
+      "props": [
+        "monitor"
+      ],
+      "through_line_state": "four olives arrive and the floor is still mostly empty",
+      "sfx": "a monitor blip, a distant TV murmur, a sigh",
+      "shots": [
+        "MEDIUM, eye level: HQ watching a show on the hanging monitor",
+        "CLOSE, low angle: the screen glow across HQ's face",
+        "MEDIUM, high angle: HQ not turning around",
+        "CLOSE on HQ's eyes fixed on the screen"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "HQ. This is not sustainable."
+        },
+        {
+          "speaker": "hq",
+          "line": "She said she wasn't hungry."
+        },
+        {
+          "speaker": "gut",
+          "line": "She is always hungry. I'd know."
+        },
+        {
+          "speaker": "hq",
+          "line": "She's watching a show. Give it time."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "backfire",
+      "location": "stomach",
+      "characters": [
+        "gut",
+        "loops"
+      ],
+      "props": [],
+      "through_line_state": "nothing new arrives, the room stays bare",
+      "sfx": "a hopeful rummage, a hollow scrape, a disappointed pop",
+      "shots": [
+        "MEDIUM, high angle: Loops surging up eagerly and finding nothing",
+        "CLOSE, low angle: Loops' three pairs of eyes searching",
+        "MEDIUM, eye level: Gut gesturing at the empty floor",
+        "CLOSE on the eyes: Loops undeterred, Gut defeated"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "Loops, is anything reaching you?"
+        },
+        {
+          "speaker": "loops",
+          "line": "Ooh! Is that cheese? Send it down!"
+        },
+        {
+          "speaker": "gut",
+          "line": "That's everything, Loops. All of it."
+        },
+        {
+          "speaker": "loops",
+          "line": "I can work with this! Barely!"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "payoff",
+      "location": "basement",
+      "characters": [
+        "gut",
+        "rusty"
+      ],
+      "props": [],
+      "through_line_state": "a very large block of cheese fills the whole opening",
+      "sfx": "a fridge door suction, a heavy thud, silence",
+      "shots": [
+        "MEDIUM, eye level: the tunnel quiet, then a distant fridge light spilling in",
+        "CLOSE, low angle: Gut looking up sharply",
+        "MEDIUM, high angle: an enormous block shape filling the opening above",
+        "CLOSE on the eyes: Rusty entirely unsurprised"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "It's eleven. She's standing at the fridge."
+        },
+        {
+          "speaker": "rusty",
+          "line": "Here we go."
+        },
+        {
+          "speaker": "gut",
+          "line": "She's got the whole block of cheese."
+        },
+        {
+          "speaker": "rusty",
+          "line": "This is the real dinner."
+        }
+      ]
+    }
+  ]
+}

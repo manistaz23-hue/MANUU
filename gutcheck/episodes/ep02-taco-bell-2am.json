@@ -1,0 +1,257 @@
+{
+  "id": "ep02",
+  "slug": "taco-bell-2am",
+  "vein": "fast food and chains",
+  "food": "Taco Bell",
+  "food_keywords": [
+    "taco",
+    "tacos"
+  ],
+  "caption": "2am and she just ate Taco Bell:",
+  "title": "2am and she just ate Taco Bell 😐",
+  "hashtags": [
+    "#foodtok",
+    "#tacobell",
+    "#latenight",
+    "#relatable",
+    "#cartoon"
+  ],
+  "accent_color": "#C77A2E",
+  "kicker": "Set an alarm for four.",
+  "through_line": {
+    "name": "the paper drive-thru bag",
+    "prop_prompt": "a crumpled brown paper takeout bag with the top rolled over twice, grease darkening one corner, a small square sauce packet tucked into the fold",
+    "progression": [
+      "a paper bag silhouette descending in the dark",
+      "the bag scraping down, heavier than it looks",
+      "the bag splits open and three tacos spill out with faces",
+      "the tacos have settled into a small huddle",
+      "a sauce packet floats free and drifts past",
+      "the bag lies flat and empty on the cavity floor"
+    ]
+  },
+  "blocks": [
+    {
+      "n": 1,
+      "role": "hook",
+      "location": "esophagus",
+      "characters": [
+        "pipes",
+        "gut"
+      ],
+      "props": [
+        "paper_bag"
+      ],
+      "through_line_state": "a paper bag silhouette descending in the dark",
+      "sfx": "a paper crinkle, one distant car engine, a slow gulp",
+      "shots": [
+        "MEDIUM, eye level: Pipes alone in the dark tube, whispering downward",
+        "CLOSE, low angle: Gut's eyes snapping open in the gloom",
+        "MEDIUM, high angle: a paper bag shape descending slowly above Pipes",
+        "CLOSE on the eyes: Gut staring straight up, unblinking"
+      ],
+      "turns": [
+        {
+          "speaker": "pipes",
+          "line": "Hey. You awake down there?"
+        },
+        {
+          "speaker": "gut",
+          "line": "It's two in the morning."
+        },
+        {
+          "speaker": "pipes",
+          "line": "I know. She just ordered tacos."
+        },
+        {
+          "speaker": "gut",
+          "line": "Tacos. At two in the morning."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "refusal",
+      "location": "esophagus",
+      "characters": [
+        "gut",
+        "pipes"
+      ],
+      "props": [
+        "paper_bag"
+      ],
+      "through_line_state": "the bag scraping down, heavier than it looks",
+      "sfx": "a dragging scrape, a paper tear, a strained creak",
+      "shots": [
+        "CLOSE, low angle: Gut yelling up the tube, brows down hard",
+        "MEDIUM, eye level: Pipes flattened sideways as the bag drags past",
+        "CLOSE on Pipes' eyes counting something going by",
+        "MEDIUM, high angle: the bag catching, tearing, sliding on"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "Nope. We closed at eleven."
+        },
+        {
+          "speaker": "pipes",
+          "line": "Tell her that. She's in a drive-thru."
+        },
+        {
+          "speaker": "gut",
+          "line": "There are four items in that bag."
+        },
+        {
+          "speaker": "pipes",
+          "line": "Five. She added a cinnamon thing."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "arrival",
+      "location": "stomach",
+      "characters": [
+        "gut",
+        "taco"
+      ],
+      "props": [],
+      "through_line_state": "the bag splits open and three tacos spill out with faces",
+      "sfx": "a soft splat, a paper rustle, three cheerful pops",
+      "shots": [
+        "MEDIUM, high angle: the bag lands and splits, contents spilling out",
+        "CLOSE, low angle: one taco opens two friendly eyes and smiles up",
+        "MEDIUM, eye level: Gut leaning back, entirely still",
+        "CLOSE on the eyes: two more tacos pop into frame beside the first"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "Oh, come on."
+        },
+        {
+          "speaker": "taco",
+          "line": "Evening! Hope we're not interrupting."
+        },
+        {
+          "speaker": "gut",
+          "line": "You're a taco. It's two AM."
+        },
+        {
+          "speaker": "taco",
+          "line": "Three of us, technically. And a sauce packet."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "escalation",
+      "location": "brain_room",
+      "characters": [
+        "gut",
+        "hq"
+      ],
+      "props": [
+        "phone"
+      ],
+      "through_line_state": "the tacos have settled into a small huddle",
+      "sfx": "a phone tap, a dull thud, a tired exhale",
+      "shots": [
+        "MEDIUM, eye level: HQ slumped against the veined wall, half asleep on its feet",
+        "CLOSE, low angle: the phone slipping in HQ's grip, screen glowing",
+        "MEDIUM, high angle: veins shivering as Gut's voice comes up through the floor",
+        "CLOSE on HQ's eyes, refusing to open all the way"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "HQ, why are we awake right now?"
+        },
+        {
+          "speaker": "hq",
+          "line": "That's above my pay grade."
+        },
+        {
+          "speaker": "gut",
+          "line": "You approved this. You pressed the order button."
+        },
+        {
+          "speaker": "hq",
+          "line": "I was asleep. Probably."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "backfire",
+      "location": "brain_room",
+      "characters": [
+        "gut",
+        "liv"
+      ],
+      "props": [],
+      "through_line_state": "a sauce packet floats free and drifts past",
+      "sfx": "a heavy shuffle, a long sigh, a wet plop",
+      "shots": [
+        "CLOSE, low angle: Liv hauling into frame, one brow already raised",
+        "MEDIUM, eye level: Liv turning away mid-sentence",
+        "MEDIUM, high angle: a small sauce packet drifting past between them",
+        "CLOSE on the eyes: Liv's lids dropping shut"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "Liv! I need you down here."
+        },
+        {
+          "speaker": "liv",
+          "line": "Oh, so now y'all remember me."
+        },
+        {
+          "speaker": "gut",
+          "line": "There's a sauce packet situation."
+        },
+        {
+          "speaker": "liv",
+          "line": "I handle drinks. That's grease. Good luck."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "payoff",
+      "location": "basement",
+      "characters": [
+        "gut",
+        "rusty"
+      ],
+      "props": [],
+      "through_line_state": "the bag lies flat and empty on the cavity floor",
+      "sfx": "one low rumble, a long silence, a single drip",
+      "shots": [
+        "MEDIUM, eye level: the dark tunnel, completely still",
+        "CLOSE, low angle: Gut peering down into it, hopeful",
+        "MEDIUM, high angle: two calm eyes opening far back in the amber dark",
+        "CLOSE on the eyes: Rusty blinks once, slowly"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "It got quiet. Maybe we're fine down here."
+        },
+        {
+          "speaker": "rusty",
+          "line": "You are not fine."
+        },
+        {
+          "speaker": "gut",
+          "line": "Rusty, please. Not tonight, man."
+        },
+        {
+          "speaker": "rusty",
+          "line": "Set an alarm for four."
+        }
+      ]
+    }
+  ]
+}

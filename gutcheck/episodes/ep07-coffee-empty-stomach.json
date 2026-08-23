@@ -1,0 +1,256 @@
+{
+  "id": "ep07",
+  "slug": "coffee-empty-stomach",
+  "vein": "sad American realism",
+  "food": "black coffee",
+  "food_keywords": [
+    "coffee"
+  ],
+  "caption": "Black coffee, no breakfast, 7am:",
+  "title": "Black coffee, no breakfast, 7am ☕",
+  "hashtags": [
+    "#coffee",
+    "#foodtok",
+    "#morningroutine",
+    "#relatable",
+    "#cartoon"
+  ],
+  "accent_color": "#6B4226",
+  "kicker": "That's you. Go sit down.",
+  "through_line": {
+    "name": "the black coffee",
+    "prop_prompt": "a tall paper coffee cup with a domed plastic lid and a dark ring of coffee staining the rim, no sleeve, slightly crushed at the middle",
+    "progression": [
+      "a dark stream starting down the empty tube",
+      "the stream running hard and steady",
+      "the dark liquid pools and looks around for food",
+      "the pool covers the whole empty floor",
+      "a second stream starts above",
+      "the cavity is dark, full, and vibrating"
+    ]
+  },
+  "blocks": [
+    {
+      "n": 1,
+      "role": "hook",
+      "location": "esophagus",
+      "characters": [
+        "pipes",
+        "gut"
+      ],
+      "props": [
+        "coffee_cup"
+      ],
+      "through_line_state": "a dark stream starting down the empty tube",
+      "sfx": "a pour, a lid click, a hollow echo",
+      "shots": [
+        "MEDIUM, eye level: Pipes calling down into a very empty tube",
+        "CLOSE, low angle: Gut looking up, hopeful for once",
+        "MEDIUM, high angle: a thin dark stream beginning down the wall",
+        "CLOSE on the eyes: Gut's hope closing back down"
+      ],
+      "turns": [
+        {
+          "speaker": "pipes",
+          "line": "Morning. Something's coming down."
+        },
+        {
+          "speaker": "gut",
+          "line": "Is there any food with it?"
+        },
+        {
+          "speaker": "pipes",
+          "line": "There's coffee. Large. Black coffee."
+        },
+        {
+          "speaker": "gut",
+          "line": "I asked if there was food, Pipes."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "refusal",
+      "location": "esophagus",
+      "characters": [
+        "gut",
+        "pipes"
+      ],
+      "props": [
+        "coffee_cup"
+      ],
+      "through_line_state": "the stream running hard and steady",
+      "sfx": "a steady pour, a hollow drip, a creak",
+      "shots": [
+        "CLOSE, low angle: Gut shouting up an empty tube, echo and all",
+        "MEDIUM, eye level: Pipes standing in the stream, shrugging",
+        "MEDIUM, high angle: the stream thickening, no end in sight",
+        "CLOSE on Pipes' eyes glancing away"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "It's seven in the morning. I'm empty."
+        },
+        {
+          "speaker": "pipes",
+          "line": "I know. She's already halfway through it."
+        },
+        {
+          "speaker": "gut",
+          "line": "Nothing has been down here since yesterday."
+        },
+        {
+          "speaker": "pipes",
+          "line": "She's ordering a second one."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "arrival",
+      "location": "stomach",
+      "characters": [
+        "gut",
+        "coffee"
+      ],
+      "props": [],
+      "through_line_state": "the dark liquid pools and looks around for food",
+      "sfx": "a hot splash, a hollow echo, a sharp hiss",
+      "shots": [
+        "MEDIUM, high angle: dark liquid spreading across a completely bare floor",
+        "CLOSE, low angle: two alert eyes rising out of the dark pool",
+        "MEDIUM, eye level: the coffee turning, searching the empty room",
+        "CLOSE on the eyes: the coffee realizing there is nothing here"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "Oh, that's hot. That is hot."
+        },
+        {
+          "speaker": "coffee",
+          "line": "Rise and grind! Where's the food?"
+        },
+        {
+          "speaker": "gut",
+          "line": "There is no food."
+        },
+        {
+          "speaker": "coffee",
+          "line": "None? Just me? In here? Alone?"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "escalation",
+      "location": "brain_room",
+      "characters": [
+        "gut",
+        "hq"
+      ],
+      "props": [
+        "phone"
+      ],
+      "through_line_state": "the pool covers the whole empty floor",
+      "sfx": "a phone tap, a dull hum, a flat beep",
+      "shots": [
+        "MEDIUM, eye level: HQ mid-scroll, not looking up",
+        "CLOSE, low angle: the phone lighting HQ from below",
+        "MEDIUM, high angle: HQ shrugging with the phone still raised",
+        "CLOSE on HQ's eyes flicking back to the screen"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "HQ, we skipped breakfast again."
+        },
+        {
+          "speaker": "hq",
+          "line": "We didn't skip it. We forgot."
+        },
+        {
+          "speaker": "gut",
+          "line": "Third day in a row, HQ."
+        },
+        {
+          "speaker": "hq",
+          "line": "Let me look it up. Hold on."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "backfire",
+      "location": "brain_room",
+      "characters": [
+        "gut",
+        "buzz"
+      ],
+      "props": [],
+      "through_line_state": "a second stream starts above",
+      "sfx": "a fast drip, a panicked squeak, a rattling buzz",
+      "shots": [
+        "CLOSE, low angle: Buzz vibrating into frame",
+        "MEDIUM, eye level: Buzz gesturing wildly, Gut deflating",
+        "MEDIUM, high angle: Buzz following Gut across the room",
+        "CLOSE on the eyes: Buzz pleading directly at camera"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "Buzz, take some pressure off me."
+        },
+        {
+          "speaker": "buzz",
+          "line": "Off you? I'm at four percent."
+        },
+        {
+          "speaker": "gut",
+          "line": "You said four percent yesterday."
+        },
+        {
+          "speaker": "buzz",
+          "line": "Nobody's listening to me. Nobody ever does."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "payoff",
+      "location": "basement",
+      "characters": [
+        "gut",
+        "rusty"
+      ],
+      "props": [],
+      "through_line_state": "the cavity is dark, full, and vibrating",
+      "sfx": "a low tremor, a rattling hum, one long silence",
+      "shots": [
+        "MEDIUM, eye level: the tunnel walls faintly trembling",
+        "CLOSE, low angle: Gut steadying himself against the wall",
+        "MEDIUM, high angle: Rusty's eyes opening, perfectly still while everything shakes",
+        "CLOSE on the eyes: Gut realizing what the shaking is"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "The whole room is shaking down here."
+        },
+        {
+          "speaker": "rusty",
+          "line": "That is not the room."
+        },
+        {
+          "speaker": "gut",
+          "line": "Then what is it, Rusty?"
+        },
+        {
+          "speaker": "rusty",
+          "line": "That's you. Go sit down."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "ep04",
+  "slug": "thanksgiving-plate",
+  "vein": "holiday and event food",
+  "food": "the Thanksgiving plate",
+  "food_keywords": ["plate", "thursday"],
+  "caption": "Eating the Thanksgiving plate right now:",
+  "title": "Eating the Thanksgiving plate right now 🦃",
+  "hashtags": ["#thanksgiving", "#foodtok", "#relatable", "#holidays", "#cartoon"],
+  "accent_color": "#D9A441",
+  "kicker": "Everybody sleeps. Nobody wins.",
+  "through_line": {
+    "name": "the stacked plate",
+    "prop_prompt": "a white paper plate loaded far past its edges with a heaped mound of food, the plate bowing visibly in the middle, two dinner rolls balanced on top",
+    "progression": [
+      "a huge flat shape blotting out the light above",
+      "the plate wedged sideways, refusing to fit",
+      "the whole plate lands intact and opens its eyes",
+      "the mound has spread edge to edge across the cavity",
+      "a second smaller plate descends behind the first",
+      "the plate lies picked clean and abandoned"
+    ]
+  },
+  "blocks": [
+    {
+      "n": 1, "role": "hook", "location": "esophagus",
+      "characters": ["pipes", "gut"], "props": ["thanksgiving_plate"],
+      "through_line_state": "a huge flat shape blotting out the light above",
+      "sfx": "a distant clatter of cutlery, a deep groan, a slow swallow",
+      "shots": [
+        "MEDIUM, eye level: Pipes looking up as the light above him goes out",
+        "CLOSE, low angle: Gut opening one eye, then both",
+        "MEDIUM, high angle: an enormous flat shadow filling the top of the tube",
+        "CLOSE on the eyes: Gut's brows climbing all the way up"
+      ],
+      "turns": [
+        {"speaker": "pipes", "line": "Gut. Brace yourself down there."},
+        {"speaker": "gut", "line": "It's Thursday. Why?"},
+        {"speaker": "pipes", "line": "It's the fourth Thursday. The plate is coming."},
+        {"speaker": "gut", "line": "How high did she stack it?"}
+      ]
+    },
+    {
+      "n": 2, "role": "refusal", "location": "esophagus",
+      "characters": ["gut", "pipes"], "props": ["thanksgiving_plate"],
+      "through_line_state": "the plate wedged sideways, refusing to fit",
+      "sfx": "a grinding wedge, a paper crack, a strained wobble",
+      "shots": [
+        "CLOSE, low angle: Gut listening hard, head tilted toward the tube",
+        "MEDIUM, eye level: the plate jammed crosswise, Pipes crushed to one side",
+        "MEDIUM, high angle: a second smaller shape queued up behind the first",
+        "CLOSE on Pipes' eyes, watering"
+      ],
+      "turns": [
+        {"speaker": "gut", "line": "There's a second plate. I can hear it."},
+        {"speaker": "pipes", "line": "That's dessert. Completely separate trip."},
+        {"speaker": "gut", "line": "Send both back. Right now."},
+        {"speaker": "pipes", "line": "Nobody sends anything back today."}
+      ]
+    },
+    {
+      "n": 3, "role": "arrival", "location": "stomach",
+      "characters": ["gut", "thanksgiving_plate"], "props": [],
+      "through_line_state": "the whole plate lands intact and opens its eyes",
+      "sfx": "a heavy landing thud, a wet settle, a cheerful chime",
+      "shots": [
+        "MEDIUM, high angle: the plate landing flat and level in the cavity",
+        "CLOSE, low angle: two warm eyes opening in the middle of the mound",
+        "MEDIUM, eye level: Gut pressed flat against the far wall",
+        "CLOSE on the eyes: the plate beaming, Gut blinking slowly"
+      ],
+      "turns": [
+        {"speaker": "gut", "line": "That is not a portion. That's a lawn."},
+        {"speaker": "thanksgiving_plate", "line": "Happy Thanksgiving! I brought everybody!"},
+        {"speaker": "gut", "line": "Who is everybody?"},
+        {"speaker": "thanksgiving_plate", "line": "Turkey, stuffing, mashed, green beans, and two rolls!"}
+      ]
+    },
+    {
+      "n": 4, "role": "escalation", "location": "brain_room",
+      "characters": ["gut", "hq"], "props": ["monitor"],
+      "through_line_state": "the mound has spread edge to edge across the cavity",
+      "sfx": "a monitor blip, a chair scrape, a resigned sigh",
+      "shots": [
+        "MEDIUM, eye level: HQ watching the hanging monitor, arms slack",
+        "CLOSE, low angle: on the pale screen, a hand reaching for a serving spoon",
+        "MEDIUM, high angle: HQ turning away from the screen too late",
+        "CLOSE on HQ's eyes going wide"
+      ],
+      "turns": [
+        {"speaker": "gut", "line": "HQ, we need to stop this."},
+        {"speaker": "hq", "line": "She's going back for seconds."},
+        {"speaker": "gut", "line": "Seconds? There were no firsts. It never stopped."},
+        {"speaker": "hq", "line": "There's pie. I'm seeing pie."}
+      ]
+    },
+    {
+      "n": 5, "role": "backfire", "location": "stomach",
+      "characters": ["gut", "loops"], "props": [],
+      "through_line_state": "a second smaller plate descends behind the first",
+      "sfx": "a rummaging squelch, a delighted gasp, a soft thump",
+      "shots": [
+        "MEDIUM, high angle: Loops surging into frame, coils everywhere",
+        "CLOSE, low angle: three pairs of Loops' eyes lighting up in sequence",
+        "MEDIUM, eye level: Gut sagging as Loops burrows past",
+        "CLOSE on the eyes: Loops delighted, Gut hollow"
+      ],
+      "turns": [
+        {"speaker": "gut", "line": "Loops, take some of this. Please."},
+        {"speaker": "loops", "line": "Ooh, what's THIS one? Is that stuffing?"},
+        {"speaker": "gut", "line": "Focus. I'm structurally compromised down here."},
+        {"speaker": "loops", "line": "I can work with this! Every bit!"}
+      ]
+    },
+    {
+      "n": 6, "role": "payoff", "location": "basement",
+      "characters": ["gut", "rusty"], "props": [],
+      "through_line_state": "the plate lies picked clean and abandoned",
+      "sfx": "a distant couch creak, one long rumble, silence",
+      "shots": [
+        "MEDIUM, eye level: the dark tunnel, amber light very low",
+        "CLOSE, low angle: Gut leaning in, exhausted, hoping",
+        "MEDIUM, high angle: Rusty's calm eyes opening in the deep shadow",
+        "CLOSE on the eyes: Rusty entirely unmoved"
+      ],
+      "turns": [
+        {"speaker": "gut", "line": "She's heading for the couch. It's over."},
+        {"speaker": "rusty", "line": "Let her go. She earned it."},
+        {"speaker": "gut", "line": "That's it? That's your whole plan?"},
+        {"speaker": "rusty", "line": "Everybody sleeps. Nobody wins."}
+      ]
+    }
+  ]
+}

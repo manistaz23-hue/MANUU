@@ -1,0 +1,257 @@
+{
+  "id": "ep06",
+  "slug": "costco-hot-dog",
+  "vein": "fast food and chains",
+  "food": "a Costco hot dog",
+  "food_keywords": [
+    "hot dog",
+    "dog"
+  ],
+  "caption": "Eating a Costco hot dog right now:",
+  "title": "Eating a Costco hot dog right now 🌭",
+  "hashtags": [
+    "#costco",
+    "#foodtok",
+    "#foodcourt",
+    "#relatable",
+    "#cartoon"
+  ],
+  "accent_color": "#C0392B",
+  "kicker": "Farther than you think.",
+  "through_line": {
+    "name": "the food court tray",
+    "prop_prompt": "a shallow red plastic tray holding one long hot dog in a bun and an oversized waxed paper soda cup with a straw, the cup sweating",
+    "progression": [
+      "a long shape and a huge cup descending together",
+      "the cup overflowing as it comes, liquid running ahead of it",
+      "the hot dog lands upright and greets the room",
+      "the cavity is half liquid, the tray floating on top",
+      "a second hot dog appears above",
+      "the tray drifts, empty, in a full cavity"
+    ]
+  },
+  "blocks": [
+    {
+      "n": 1,
+      "role": "hook",
+      "location": "esophagus",
+      "characters": [
+        "pipes",
+        "gut"
+      ],
+      "props": [
+        "hotdog_tray"
+      ],
+      "through_line_state": "a long shape and a huge cup descending together",
+      "sfx": "a soda fountain hiss, a paper crinkle, a swallow",
+      "shots": [
+        "MEDIUM, eye level: Pipes looking up at two shapes coming down together",
+        "CLOSE, low angle: Gut's brows lifting slowly",
+        "MEDIUM, high angle: an enormous waxed cup sliding down beside a long shape",
+        "CLOSE on the eyes: Gut doing the math and not liking it"
+      ],
+      "turns": [
+        {
+          "speaker": "pipes",
+          "line": "Delivery. It's warm."
+        },
+        {
+          "speaker": "gut",
+          "line": "Warm from where exactly, Pipes?"
+        },
+        {
+          "speaker": "pipes",
+          "line": "The food court. It's a hot dog."
+        },
+        {
+          "speaker": "gut",
+          "line": "The dollar-fifty one? With the soda?"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "refusal",
+      "location": "esophagus",
+      "characters": [
+        "gut",
+        "pipes"
+      ],
+      "props": [
+        "hotdog_tray"
+      ],
+      "through_line_state": "the cup overflowing as it comes, liquid running ahead of it",
+      "sfx": "a rushing pour, a paper squeak, a groan",
+      "shots": [
+        "CLOSE, low angle: Gut shouting upward, jaw set",
+        "MEDIUM, eye level: liquid sheeting past Pipes ahead of the cup",
+        "MEDIUM, high angle: the tube walls glossy and running wet",
+        "CLOSE on Pipes' eyes counting the refills"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "One hot dog. That's it. Nothing else."
+        },
+        {
+          "speaker": "pipes",
+          "line": "She refilled the cup. Twice."
+        },
+        {
+          "speaker": "gut",
+          "line": "That cup holds thirty-two ounces."
+        },
+        {
+          "speaker": "pipes",
+          "line": "Then she got a churro. Sorry."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "arrival",
+      "location": "stomach",
+      "characters": [
+        "gut",
+        "hotdog"
+      ],
+      "props": [],
+      "through_line_state": "the hot dog lands upright and opens its eyes",
+      "sfx": "a soft landing splash, a rising glug, a friendly honk",
+      "shots": [
+        "MEDIUM, high angle: the hot dog landing upright in rising liquid",
+        "CLOSE, low angle: two friendly eyes opening along the bun",
+        "MEDIUM, eye level: Gut treading in liquid that keeps rising",
+        "CLOSE on the eyes: the hot dog cheerful, the water line climbing"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "Sir. You're standing in my liquid."
+        },
+        {
+          "speaker": "hotdog",
+          "line": "Buddy! Great value, right? Dollar fifty!"
+        },
+        {
+          "speaker": "gut",
+          "line": "That's not the issue here."
+        },
+        {
+          "speaker": "hotdog",
+          "line": "Soda's unlimited too! I told her!"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "escalation",
+      "location": "brain_room",
+      "characters": [
+        "gut",
+        "hq"
+      ],
+      "props": [
+        "monitor"
+      ],
+      "through_line_state": "the cavity is half liquid, the tray floating on top",
+      "sfx": "a monitor blip, a distant queue murmur, a sigh",
+      "shots": [
+        "MEDIUM, eye level: HQ watching the monitor without expression",
+        "CLOSE, low angle: on the screen, a hand joining a queue again",
+        "MEDIUM, high angle: HQ shrugging with both tiny arms",
+        "CLOSE on HQ's eyes, entirely at peace with this"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "HQ. She's going back to the counter."
+        },
+        {
+          "speaker": "hq",
+          "line": "For what? She already ate."
+        },
+        {
+          "speaker": "gut",
+          "line": "For another one. A second hot dog."
+        },
+        {
+          "speaker": "hq",
+          "line": "It's a dollar fifty. I understand her."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "backfire",
+      "location": "brain_room",
+      "characters": [
+        "gut",
+        "buzz"
+      ],
+      "props": [],
+      "through_line_state": "a second hot dog appears above",
+      "sfx": "a frantic drip, a rising whine, a squeak",
+      "shots": [
+        "CLOSE, low angle: Buzz shaking hard, sweat drop already flying",
+        "MEDIUM, eye level: Buzz bouncing, Gut refusing to look",
+        "MEDIUM, high angle: Buzz visibly rounder than the last shot",
+        "CLOSE on the eyes: Buzz staring into the camera, betrayed"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "Buzz, how are we doing up there?"
+        },
+        {
+          "speaker": "buzz",
+          "line": "We're at capacity. We passed capacity."
+        },
+        {
+          "speaker": "gut",
+          "line": "You always say that, Buzz."
+        },
+        {
+          "speaker": "buzz",
+          "line": "Thirty-two ounces. Times three refills."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "payoff",
+      "location": "basement",
+      "characters": [
+        "gut",
+        "rusty"
+      ],
+      "props": [],
+      "through_line_state": "the tray drifts, empty, in a full cavity",
+      "sfx": "one low rumble, a distant car door, silence",
+      "shots": [
+        "MEDIUM, eye level: the tunnel, quiet and amber",
+        "CLOSE, low angle: Gut relaxing for the first time all episode",
+        "MEDIUM, high angle: Rusty's eyes opening behind him",
+        "CLOSE on the eyes: Gut's relief evaporating"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "We made it out. Nothing even happened."
+        },
+        {
+          "speaker": "rusty",
+          "line": "The parking lot is very far away."
+        },
+        {
+          "speaker": "gut",
+          "line": "Rusty. How far is far?"
+        },
+        {
+          "speaker": "rusty",
+          "line": "Farther than you think."
+        }
+      ]
+    }
+  ]
+}

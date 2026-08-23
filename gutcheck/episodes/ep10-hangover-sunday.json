@@ -1,0 +1,258 @@
+{
+  "id": "ep10",
+  "slug": "hangover-sunday",
+  "vein": "sad American realism",
+  "food": "cold pizza",
+  "food_keywords": [
+    "pizza"
+  ],
+  "caption": "Hangover Sunday, 1pm, cold pizza:",
+  "title": "Hangover Sunday, 1pm, cold pizza 🫠",
+  "hashtags": [
+    "#foodtok",
+    "#hangover",
+    "#pizza",
+    "#relatable",
+    "#cartoon"
+  ],
+  "accent_color": "#3FA9F5",
+  "kicker": "Nobody asked you. Lie down.",
+  "through_line": {
+    "name": "the cold slice",
+    "prop_prompt": "a single cold slice of pepperoni pizza with a stiff curled edge and congealed cheese, beside a tall bottle of bright blue sports drink with the cap off",
+    "progression": [
+      "a stiff flat shape descending slowly",
+      "the slice coming down sideways, refusing to bend",
+      "the slice lands cold and starts talking",
+      "a wave of blue liquid arrives on top of it",
+      "the blue and the slice have not mixed at all",
+      "a delivery notification lights the room"
+    ]
+  },
+  "blocks": [
+    {
+      "n": 1,
+      "role": "hook",
+      "location": "esophagus",
+      "characters": [
+        "pipes",
+        "gut"
+      ],
+      "props": [
+        "cold_slice"
+      ],
+      "through_line_state": "a stiff flat shape descending slowly",
+      "sfx": "a cardboard box flap, a slow slide, a quiet swallow",
+      "shots": [
+        "MEDIUM, eye level: Pipes whispering downward, wincing at his own volume",
+        "CLOSE, low angle: Gut lying flat, one eye barely open",
+        "MEDIUM, high angle: a stiff flat shape descending slowly above",
+        "CLOSE on the eyes: Gut closing his eye again"
+      ],
+      "turns": [
+        {
+          "speaker": "pipes",
+          "line": "Gut? You alive down there?"
+        },
+        {
+          "speaker": "gut",
+          "line": "Do not speak loudly right now."
+        },
+        {
+          "speaker": "pipes",
+          "line": "Sorry. There's cold pizza coming down."
+        },
+        {
+          "speaker": "gut",
+          "line": "Pizza. At one in the afternoon."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "refusal",
+      "location": "esophagus",
+      "characters": [
+        "gut",
+        "pipes"
+      ],
+      "props": [
+        "cold_slice"
+      ],
+      "through_line_state": "the slice coming down sideways, refusing to bend",
+      "sfx": "a stiff scrape, a hollow knock, a groan",
+      "shots": [
+        "CLOSE, low angle: Gut speaking without opening his eyes",
+        "MEDIUM, eye level: the stiff slice jamming crossways against Pipes",
+        "MEDIUM, high angle: a blue bottle waiting above it",
+        "CLOSE on Pipes' eyes darting between the two"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "Where was this pizza last night?"
+        },
+        {
+          "speaker": "pipes",
+          "line": "In a box. On the counter."
+        },
+        {
+          "speaker": "gut",
+          "line": "It should have come down then."
+        },
+        {
+          "speaker": "pipes",
+          "line": "There's a blue drink too. Full one."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "arrival",
+      "location": "stomach",
+      "characters": [
+        "gut",
+        "pizza"
+      ],
+      "props": [],
+      "through_line_state": "the slice lands cold and starts talking",
+      "sfx": "a flat cold slap, a hollow echo, a chipper pop",
+      "shots": [
+        "MEDIUM, high angle: the slice landing completely flat and rigid",
+        "CLOSE, low angle: two cheerful eyes opening on the cold cheese",
+        "MEDIUM, eye level: Gut not moving at all",
+        "CLOSE on the eyes: the slice bright, Gut vacant"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "You're cold. Why are you cold?"
+        },
+        {
+          "speaker": "pizza",
+          "line": "Counter all night! Perfectly fine!"
+        },
+        {
+          "speaker": "gut",
+          "line": "That's not how counters work."
+        },
+        {
+          "speaker": "pizza",
+          "line": "The blue drink says it's fine!"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "escalation",
+      "location": "brain_room",
+      "characters": [
+        "gut",
+        "hq"
+      ],
+      "props": [
+        "phone"
+      ],
+      "through_line_state": "a wave of blue liquid arrives on top of it",
+      "sfx": "a phone buzz, a dull throb, a wince",
+      "shots": [
+        "MEDIUM, eye level: HQ sitting on the floor of the red chamber, phone face down",
+        "CLOSE, low angle: HQ pressing one small arm against its own side",
+        "MEDIUM, high angle: the wall veins throbbing slowly",
+        "CLOSE on HQ's eyes refusing to open"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "HQ. What happened last night?"
+        },
+        {
+          "speaker": "hq",
+          "line": "I'm not answering that question."
+        },
+        {
+          "speaker": "gut",
+          "line": "You were there. You approved everything."
+        },
+        {
+          "speaker": "hq",
+          "line": "I approved nothing. I was offline."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "backfire",
+      "location": "brain_room",
+      "characters": [
+        "gut",
+        "liv"
+      ],
+      "props": [],
+      "through_line_state": "the blue and the slice have not mixed at all",
+      "sfx": "a heavy shuffle, a long sigh, a slow drip",
+      "shots": [
+        "CLOSE, low angle: Liv already in frame, already working, already furious",
+        "MEDIUM, eye level: Gut approaching carefully",
+        "MEDIUM, high angle: Liv turning her back and continuing",
+        "CLOSE on the eyes: Liv not looking up once"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "Liv. I'm sorry about last night."
+        },
+        {
+          "speaker": "liv",
+          "line": "Oh, so now we're apologizing."
+        },
+        {
+          "speaker": "gut",
+          "line": "Can you do anything at all?"
+        },
+        {
+          "speaker": "liv",
+          "line": "I've been working since eleven. Alone."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "payoff",
+      "location": "basement",
+      "characters": [
+        "gut",
+        "rusty"
+      ],
+      "props": [
+        "monitor"
+      ],
+      "through_line_state": "a delivery notification lights the room",
+      "sfx": "a phone notification chime, one low rumble, silence",
+      "shots": [
+        "MEDIUM, eye level: the monitor blinking on above the dark tunnel",
+        "CLOSE, low angle: an order confirmation glowing on the pale screen",
+        "MEDIUM, high angle: Gut sagging completely",
+        "CLOSE on the eyes: Rusty opening his, unhurried"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "She's ordering more food. On the app."
+        },
+        {
+          "speaker": "rusty",
+          "line": "Of course she is."
+        },
+        {
+          "speaker": "gut",
+          "line": "Rusty, I can't do this twice."
+        },
+        {
+          "speaker": "rusty",
+          "line": "Nobody asked you. Lie down."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+Style: flat 2D vector cartoon with uniform medium-weight rounded black outlines, soft airbrushed radial gradients filling every shape, oversized glossy white cartoon eyes with black pupils and thick expressive black eyebrows, small simple mouths, bodies built from smooth rounded organic blobs with one soft highlight each. Warm anatomical palette of salmon pink, coral and dusty rose against a dark chocolate-brown vignetted gradient background, one lime-green accent reserved for food, no texture, no brush strokes, no photographic detail, crisp clean edges, simple limited animation on twos. — the visual style is EXACTLY as in the reference images, same rendering, same surface treatment.
+PALETTE LOCK: use ONLY these colors — outline #1A1A1A, flesh #F2A891, flesh shadow #E8836B, deep tissue #C25B52, cavity #7A2E2A, background gradient #3B2622 to #1E1412, eye white #FFFFFF, food accent #8CC63F. No new or foreign colors, no colored or painted backgrounds that are not in the references, no recolored characters.
+A single 10-second scene of FOUR hard-cut shots. Do NOT open the video on any reference image and do NOT show a sheet or swatch — stage everything fresh, matching characters, cavity, colors and background to their references. Motion starts on frame 1, no opening freeze.
+
+REFERENCES (look, identity, palette): @Image1 = LOCATION ({location_desc}). @Image2 = {CHAR_A} ({char_a_desc}). @Image3 = {CHAR_B} ({char_b_desc}). @Image4 = {PROP} ({prop_desc}).
+
+DIALOGUE — ONLY these two characters speak, ONLY these exact words, in this exact order, nothing added, nothing paraphrased, no improvised words:
+  {CHAR_A}: "{line 1}"
+  {CHAR_B}: "{line 2}"
+  {CHAR_A}: "{line 3}"
+  {CHAR_B}: "{line 4}"
+
+SHOT 1 — 0.0s to 2.5s — MEDIUM, eye level: {beat 1}.
+HARD CUT.
+SHOT 2 — 2.5s to 5.0s — CLOSE, low angle: {beat 2}.
+HARD CUT.
+SHOT 3 — 5.0s to 7.5s — MEDIUM, high angle: {beat 3}.
+HARD CUT.
+SHOT 4 — 7.5s to 10.0s — CLOSE on the eyes: {beat 4, the payoff}.
+
+Four hard cuts at 2.5s, 5.0s and 7.5s, no dissolves, no fades. Simple limited animation on twos, continuous motion within each shot, never freezes. Only the two named characters are visible and only their mouths move. The final shot eases into a stable, still, micro-moving final frame.
+
+AUDIO: the two named characters speaking their lines natively in {char_a_voice} and {char_b_voice}, plus {2-3 diegetic SFX}. No narration, no music, no extra voices, no improvised words, no laugh track.
+
+NEGATIVE: opening on a reference image, a sheet or swatch, a static first frame, leading freeze, dissolves, fades, new or foreign colors, colored or gradient backgrounds not in the references, recolored characters, style drift, extra characters, extra people, cloned characters, a third speaking voice, on-screen text, captions, subtitles, photorealism, 3D render, watermark.

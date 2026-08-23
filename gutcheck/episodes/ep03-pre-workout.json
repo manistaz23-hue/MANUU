@@ -1,0 +1,134 @@
+{
+  "id": "ep03",
+  "slug": "pre-workout",
+  "vein": "wellness and gym culture",
+  "food": "five scoops of pre-workout",
+  "food_keywords": ["scoop", "scoops", "workout"],
+  "caption": "Five scoops of pre-workout right now:",
+  "title": "Five scoops of pre-workout right now 💀",
+  "hashtags": ["#gymtok", "#preworkout", "#foodtok", "#relatable", "#cartoon"],
+  "accent_color": "#3FA9F5",
+  "kicker": "You'll be awake until Thursday.",
+  "through_line": {
+    "name": "the blue powder",
+    "prop_prompt": "a heaped plastic scoop of bright electric-blue powder, a few loose grains falling from the edge, the scoop handle short and ridged",
+    "progression": [
+      "a blue shimmer sliding down the tube walls",
+      "the blue liquid running thick and fast past Pipes",
+      "the blue liquid pools and rises into a grinning shape",
+      "the pool is fizzing and creeping up the cavity walls",
+      "the blue reaches the far wall and keeps going",
+      "the blue has soaked into everything and stopped moving"
+    ]
+  },
+  "blocks": [
+    {
+      "n": 1, "role": "hook", "location": "esophagus",
+      "characters": ["pipes", "gut"], "props": ["blue_scoop"],
+      "through_line_state": "a blue shimmer sliding down the tube walls",
+      "sfx": "a fizzing hiss, a liquid rush, a dry swallow",
+      "shots": [
+        "MEDIUM, eye level: Pipes glancing up as a blue glow reaches him from above",
+        "CLOSE, low angle: Gut squinting upward into the blue light",
+        "MEDIUM, high angle: bright blue liquid sheeting down the tube walls past Pipes",
+        "CLOSE on the eyes: the blue reflecting in Gut's pupils"
+      ],
+      "turns": [
+        {"speaker": "pipes", "line": "Heads up. It's blue again."},
+        {"speaker": "gut", "line": "Blue like what, exactly?"},
+        {"speaker": "pipes", "line": "Blue like pre-workout. She used five scoops."},
+        {"speaker": "gut", "line": "The label clearly says one scoop. One."}
+      ]
+    },
+    {
+      "n": 2, "role": "refusal", "location": "esophagus",
+      "characters": ["gut", "pipes"], "props": ["blue_scoop"],
+      "through_line_state": "the blue liquid running thick and fast past Pipes",
+      "sfx": "a rushing gush, a rattling vibration, a nervous creak",
+      "shots": [
+        "CLOSE, low angle: Gut shouting upward, tube walls shaking around the words",
+        "MEDIUM, eye level: Pipes bracing as blue liquid floods past him",
+        "MEDIUM, high angle: the whole tube trembling, ripples running down its length",
+        "CLOSE on Gut's surface visibly buzzing"
+      ],
+      "turns": [
+        {"speaker": "gut", "line": "Send it back up. Immediately."},
+        {"speaker": "pipes", "line": "It's a liquid. It's already past me."},
+        {"speaker": "gut", "line": "My walls are tingling. Why is that?"},
+        {"speaker": "pipes", "line": "That's the beta-alanine. It's normal."}
+      ]
+    },
+    {
+      "n": 3, "role": "arrival", "location": "stomach",
+      "characters": ["gut", "preworkout"], "props": [],
+      "through_line_state": "the blue liquid pools and rises into a grinning shape",
+      "sfx": "a carbonated fizz, a rising whoosh, a bright ding",
+      "shots": [
+        "MEDIUM, high angle: blue liquid flooding across the cavity floor",
+        "CLOSE, low angle: the pool rising up and forming two wide eager eyes",
+        "MEDIUM, eye level: Gut backing into the far wall",
+        "CLOSE on the eyes: the blue shape grinning, vibrating in place"
+      ],
+      "turns": [
+        {"speaker": "gut", "line": "What is happening to the floor?"},
+        {"speaker": "preworkout", "line": "Good morning! Let's move some weight!"},
+        {"speaker": "gut", "line": "It's four-forty. Nobody's moving anything."},
+        {"speaker": "preworkout", "line": "Three hundred milligrams. Caffeine. Let's go!"}
+      ]
+    },
+    {
+      "n": 4, "role": "escalation", "location": "brain_room",
+      "characters": ["gut", "hq"], "props": ["phone"],
+      "through_line_state": "the pool is fizzing and creeping up the cavity walls",
+      "sfx": "a phone tap, a low electrical hum, a rattling buzz",
+      "shots": [
+        "MEDIUM, eye level: HQ standing very upright, faintly vibrating",
+        "CLOSE, low angle: HQ's tiny hand shaking against the phone screen",
+        "MEDIUM, high angle: the veins on the wall pulsing fast and bright",
+        "CLOSE on HQ's eyes, pupils enormous"
+      ],
+      "turns": [
+        {"speaker": "gut", "line": "HQ, my hands are vibrating right now."},
+        {"speaker": "hq", "line": "You don't have hands."},
+        {"speaker": "gut", "line": "Then what is vibrating, HQ?"},
+        {"speaker": "hq", "line": "Hold on. Let me look it up."}
+      ]
+    },
+    {
+      "n": 5, "role": "backfire", "location": "brain_room",
+      "characters": ["gut", "buzz"], "props": [],
+      "through_line_state": "the blue reaches the far wall and keeps going",
+      "sfx": "a rapid drip, a panicked squeak, a rising whine",
+      "shots": [
+        "CLOSE, low angle: Buzz bursting into frame, eyes enormous",
+        "MEDIUM, eye level: Buzz bouncing in place, sweat drop flying off",
+        "MEDIUM, high angle: Gut turning away from Buzz entirely",
+        "CLOSE on the eyes: Buzz staring directly at the camera"
+      ],
+      "turns": [
+        {"speaker": "gut", "line": "Buzz? Why are you up here?"},
+        {"speaker": "buzz", "line": "We're at capacity. Nobody's listening to me."},
+        {"speaker": "gut", "line": "Buzz, we have a bigger problem."},
+        {"speaker": "buzz", "line": "Six percent. Then five. Then four."}
+      ]
+    },
+    {
+      "n": 6, "role": "payoff", "location": "stomach",
+      "characters": ["gut", "liv"], "props": [],
+      "through_line_state": "the blue has soaked into everything and stopped moving",
+      "sfx": "a settling glug, one flat tone, a slow blink",
+      "shots": [
+        "MEDIUM, eye level: the cavity finally still, everything faintly blue",
+        "CLOSE, low angle: Gut exhaling, shoulders dropping",
+        "MEDIUM, high angle: Liv hauling into frame behind Gut, unimpressed",
+        "CLOSE on the eyes: Gut's hope draining out in real time"
+      ],
+      "turns": [
+        {"speaker": "gut", "line": "Okay. I think it's finally starting to fade."},
+        {"speaker": "liv", "line": "Not fading. Redistributing."},
+        {"speaker": "gut", "line": "What does that even mean, Liv?"},
+        {"speaker": "liv", "line": "You'll be awake until Thursday."}
+      ]
+    }
+  ]
+}

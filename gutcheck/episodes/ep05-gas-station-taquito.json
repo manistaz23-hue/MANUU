@@ -1,0 +1,134 @@
+{
+  "id": "ep05",
+  "slug": "gas-station-taquito",
+  "vein": "sad American realism",
+  "food": "a gas station taquito",
+  "food_keywords": ["taquito", "taquitos"],
+  "caption": "Eating a gas station taquito:",
+  "title": "Eating a gas station taquito 🫡",
+  "hashtags": ["#foodtok", "#gasstation", "#relatable", "#roadtrip", "#cartoon"],
+  "accent_color": "#E0902F",
+  "kicker": "Not anymore. Cancel them.",
+  "through_line": {
+    "name": "the taquito",
+    "prop_prompt": "a single tightly rolled tube of fried tortilla, deep amber and glossy with grease, one end slightly split, a faint sheen pooling underneath",
+    "progression": [
+      "a small amber tube tumbling down the dark tube",
+      "the taquito sliding, leaving a shining trail",
+      "the taquito lands upright and opens two proud eyes",
+      "a slick has spread out around it",
+      "the slick has reached the walls and is climbing",
+      "the taquito sits calm at the center of everything"
+    ]
+  },
+  "blocks": [
+    {
+      "n": 1, "role": "hook", "location": "esophagus",
+      "characters": ["pipes", "gut"], "props": ["taquito"],
+      "through_line_state": "a small amber tube tumbling down the dark tube",
+      "sfx": "a gas pump click, a small tumble, a nervous gulp",
+      "shots": [
+        "MEDIUM, eye level: Pipes wincing before he has even spoken",
+        "CLOSE, low angle: Gut's eyes narrowing in the dark",
+        "MEDIUM, high angle: a small glistening amber tube tumbling down past Pipes",
+        "CLOSE on the eyes: Gut going completely still"
+      ],
+      "turns": [
+        {"speaker": "pipes", "line": "Gut. Don't be mad."},
+        {"speaker": "gut", "line": "Why would I be mad?"},
+        {"speaker": "pipes", "line": "We stopped for gas. She went inside."},
+        {"speaker": "gut", "line": "Pipes. Tell me it wasn't the taquitos."}
+      ]
+    },
+    {
+      "n": 2, "role": "refusal", "location": "esophagus",
+      "characters": ["gut", "pipes"], "props": ["taquito"],
+      "through_line_state": "the taquito sliding, leaving a shining trail",
+      "sfx": "a greasy slide, a slow drip, a tube creak",
+      "shots": [
+        "CLOSE, low angle: Gut roaring upward, tube rippling with it",
+        "MEDIUM, eye level: Pipes flinching as the taquito slides past his face",
+        "MEDIUM, high angle: a glistening trail left down the tube wall",
+        "CLOSE on Pipes' eyes doing quiet arithmetic"
+      ],
+      "turns": [
+        {"speaker": "gut", "line": "Those roll under a heat lamp all week."},
+        {"speaker": "pipes", "line": "This one's been rolling since Tuesday."},
+        {"speaker": "gut", "line": "Since TUESDAY? Send it back up."},
+        {"speaker": "pipes", "line": "It's Saturday, Gut. Do the math."}
+      ]
+    },
+    {
+      "n": 3, "role": "arrival", "location": "stomach",
+      "characters": ["gut", "taquito"], "props": [],
+      "through_line_state": "the taquito lands upright and opens two proud eyes",
+      "sfx": "a wet landing, a slow spreading squelch, a proud hum",
+      "shots": [
+        "MEDIUM, high angle: the taquito landing upright in the shallow liquid",
+        "CLOSE, low angle: two proud eyes opening on the glossy amber surface",
+        "MEDIUM, eye level: Gut retreating, brows flat and low",
+        "CLOSE on the eyes: the taquito content, the slick spreading behind it"
+      ],
+      "turns": [
+        {"speaker": "gut", "line": "It's glistening. Why is that happening?"},
+        {"speaker": "taquito", "line": "Howdy! Been waiting four days for this!"},
+        {"speaker": "gut", "line": "Four days under a lamp."},
+        {"speaker": "taquito", "line": "Best days of my life, honestly!"}
+      ]
+    },
+    {
+      "n": 4, "role": "escalation", "location": "brain_room",
+      "characters": ["gut", "hq"], "props": ["phone"],
+      "through_line_state": "a slick has spread out around it",
+      "sfx": "a phone tap, a scrolling flick, a flat beep",
+      "shots": [
+        "MEDIUM, eye level: HQ scrolling fast, expression unchanged",
+        "CLOSE, low angle: the phone screen filling HQ's face with pale light",
+        "MEDIUM, high angle: HQ lowering the phone very slowly",
+        "CLOSE on HQ's eyes reading something it wishes it had not"
+      ],
+      "turns": [
+        {"speaker": "gut", "line": "HQ, look this thing up. Right now."},
+        {"speaker": "hq", "line": "Looking. Okay. There's a review site for it."},
+        {"speaker": "gut", "line": "And?"},
+        {"speaker": "hq", "line": "Two stars. One review just says regret."}
+      ]
+    },
+    {
+      "n": 5, "role": "backfire", "location": "brain_room",
+      "characters": ["gut", "liv"], "props": [],
+      "through_line_state": "the slick has reached the walls and is climbing",
+      "sfx": "a heavy shuffle, a long groan, a door-slam thud",
+      "shots": [
+        "CLOSE, low angle: Liv rising into frame, both lids at half mast",
+        "MEDIUM, eye level: Gut pleading, Liv already turning away",
+        "MEDIUM, high angle: Liv settling back down heavily",
+        "CLOSE on the eyes: Liv closing both, deliberately"
+      ],
+      "turns": [
+        {"speaker": "gut", "line": "Liv, wake up. I need help."},
+        {"speaker": "liv", "line": "Oh, so now y'all remember me."},
+        {"speaker": "gut", "line": "It's a gas station taquito, Liv."},
+        {"speaker": "liv", "line": "Nope. That's a you problem. Goodnight."}
+      ]
+    },
+    {
+      "n": 6, "role": "payoff", "location": "basement",
+      "characters": ["gut", "rusty"], "props": [],
+      "through_line_state": "the taquito sits calm at the center of everything",
+      "sfx": "one low rumble, a distant drip, a slow blink",
+      "shots": [
+        "MEDIUM, eye level: the tunnel, still and warm and waiting",
+        "CLOSE, low angle: Gut looking in, dread arriving",
+        "MEDIUM, high angle: Rusty's eyes opening without hurry",
+        "CLOSE on the eyes: Rusty perfectly calm"
+      ],
+      "turns": [
+        {"speaker": "gut", "line": "Rusty. Talk to me. How bad is it?"},
+        {"speaker": "rusty", "line": "Cancel whatever she had planned."},
+        {"speaker": "gut", "line": "She has dinner reservations tonight."},
+        {"speaker": "rusty", "line": "Not anymore. Cancel them."}
+      ]
+    }
+  ]
+}

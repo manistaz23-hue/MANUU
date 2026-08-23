@@ -1,0 +1,257 @@
+{
+  "id": "ep09",
+  "slug": "buffalo-wings",
+  "vein": "fast food and chains",
+  "food": "a dozen extra hot wings",
+  "food_keywords": [
+    "wings",
+    "wing"
+  ],
+  "caption": "Eating a dozen extra hot wings:",
+  "title": "Eating a dozen extra hot wings 🔥",
+  "hashtags": [
+    "#wings",
+    "#foodtok",
+    "#spicy",
+    "#relatable",
+    "#cartoon"
+  ],
+  "accent_color": "#E5601F",
+  "kicker": "It comes back around.",
+  "through_line": {
+    "name": "the wing",
+    "prop_prompt": "a single chicken wing coated in thick glossy orange sauce, sauce pooling and dripping off the end, a small paper cup of white dressing beside it",
+    "progression": [
+      "an orange glow coming down the tube",
+      "the first wing sliding through, dripping",
+      "the wing lands and announces itself",
+      "the cavity walls have gone orange",
+      "the eleventh wing goes past the mouth",
+      "everything is still orange and slowly cooling"
+    ]
+  },
+  "blocks": [
+    {
+      "n": 1,
+      "role": "hook",
+      "location": "esophagus",
+      "characters": [
+        "pipes",
+        "gut"
+      ],
+      "props": [
+        "wing"
+      ],
+      "through_line_state": "an orange glow coming down the tube",
+      "sfx": "a distant sizzle, a wet slide, a swallow",
+      "shots": [
+        "MEDIUM, eye level: an orange glow washing over Pipes from above",
+        "CLOSE, low angle: Gut squinting up into the orange light",
+        "MEDIUM, high angle: the first wing sliding into view, dripping",
+        "CLOSE on the eyes: orange reflecting in Gut's pupils"
+      ],
+      "turns": [
+        {
+          "speaker": "pipes",
+          "line": "Gut. It's coming in orange."
+        },
+        {
+          "speaker": "gut",
+          "line": "How orange are we talking?"
+        },
+        {
+          "speaker": "pipes",
+          "line": "Wings. Extra hot. Twelve of them."
+        },
+        {
+          "speaker": "gut",
+          "line": "Twelve? She ordered a dozen wings?"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "refusal",
+      "location": "esophagus",
+      "characters": [
+        "gut",
+        "pipes"
+      ],
+      "props": [
+        "wing"
+      ],
+      "through_line_state": "the first wing sliding through, dripping",
+      "sfx": "a wet slide, a drip, a strained groan",
+      "shots": [
+        "CLOSE, low angle: Gut bellowing upward",
+        "MEDIUM, eye level: Pipes ducking sauce that is coming down anyway",
+        "MEDIUM, high angle: the tube walls streaked orange",
+        "CLOSE on Pipes' eyes watering from the fumes"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "Absolutely not. Turn them around."
+        },
+        {
+          "speaker": "pipes",
+          "line": "There's ranch. Does ranch help?"
+        },
+        {
+          "speaker": "gut",
+          "line": "Ranch does not fix extra hot."
+        },
+        {
+          "speaker": "pipes",
+          "line": "She's dipping. She's dipping right now."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "arrival",
+      "location": "stomach",
+      "characters": [
+        "gut",
+        "wing"
+      ],
+      "props": [],
+      "through_line_state": "the wing lands and announces itself",
+      "sfx": "a hot splash, a rising hiss, a confident whoop",
+      "shots": [
+        "MEDIUM, high angle: the wing landing and the liquid around it going orange",
+        "CLOSE, low angle: two bold eyes opening on the glossy sauce",
+        "MEDIUM, eye level: Gut backing away from the heat",
+        "CLOSE on the eyes: the wing thrilled, Gut steaming faintly"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "You are glowing. That's genuinely new."
+        },
+        {
+          "speaker": "wing",
+          "line": "Extra hot, baby! Feel that heat!"
+        },
+        {
+          "speaker": "gut",
+          "line": "I feel it. Everyone feels it."
+        },
+        {
+          "speaker": "wing",
+          "line": "Eleven more of us are coming!"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "escalation",
+      "location": "brain_room",
+      "characters": [
+        "gut",
+        "hq"
+      ],
+      "props": [
+        "phone"
+      ],
+      "through_line_state": "the cavity walls have gone orange",
+      "sfx": "a phone tap, a low alarm tone, a hum",
+      "shots": [
+        "MEDIUM, eye level: HQ reading the phone, faintly sweating",
+        "CLOSE, low angle: the veined wall behind HQ glowing warm",
+        "MEDIUM, high angle: HQ waving one small arm dismissively",
+        "CLOSE on HQ's eyes narrowing at the screen"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "HQ, my walls are on fire."
+        },
+        {
+          "speaker": "hq",
+          "line": "That's capsaicin. It's not real fire."
+        },
+        {
+          "speaker": "gut",
+          "line": "It feels extremely real down here."
+        },
+        {
+          "speaker": "hq",
+          "line": "She's ordering a milk. That helps."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "backfire",
+      "location": "mouth_gate",
+      "characters": [
+        "gut",
+        "yuvi"
+      ],
+      "props": [],
+      "through_line_state": "the eleventh wing goes past the mouth",
+      "sfx": "a swinging creak, a smug hum, a wet pass",
+      "shots": [
+        "MEDIUM, high angle: the mouth interior, teeth framing the light",
+        "CLOSE, low angle: Yuvi swinging lazily into frame",
+        "MEDIUM, eye level: a wing sailing past behind Yuvi, unremarked",
+        "CLOSE on the eyes: Yuvi winking, entirely comfortable"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "Yuvi, tell her to stop eating."
+        },
+        {
+          "speaker": "yuvi",
+          "line": "She can't hear me. Nobody can."
+        },
+        {
+          "speaker": "gut",
+          "line": "Then why are you always talking?"
+        },
+        {
+          "speaker": "yuvi",
+          "line": "Because I'm charming. Also, sauce number nine."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "payoff",
+      "location": "basement",
+      "characters": [
+        "gut",
+        "rusty"
+      ],
+      "props": [],
+      "through_line_state": "everything is still orange and slowly cooling",
+      "sfx": "a settling hiss, one low rumble, silence",
+      "shots": [
+        "MEDIUM, eye level: the tunnel walls faintly orange in the amber light",
+        "CLOSE, low angle: Gut cooling down, relieved",
+        "MEDIUM, high angle: Rusty's eyes opening slowly behind him",
+        "CLOSE on the eyes: Gut's relief ending"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "It's finally cooling off. We survived that."
+        },
+        {
+          "speaker": "rusty",
+          "line": "I have some news for you."
+        },
+        {
+          "speaker": "gut",
+          "line": "Don't. Don't say it, Rusty."
+        },
+        {
+          "speaker": "rusty",
+          "line": "It comes back around."
+        }
+      ]
+    }
+  ]
+}

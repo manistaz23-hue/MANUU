@@ -1,0 +1,257 @@
+{
+  "id": "ep11",
+  "slug": "fried-oreos",
+  "vein": "holiday and event food",
+  "food": "six deep-fried Oreos",
+  "food_keywords": [
+    "oreos",
+    "oreo"
+  ],
+  "caption": "Six deep-fried Oreos, going down:",
+  "title": "Six deep-fried Oreos, going down 😵",
+  "hashtags": [
+    "#statefair",
+    "#foodtok",
+    "#friedfood",
+    "#relatable",
+    "#cartoon"
+  ],
+  "accent_color": "#F5E6C8",
+  "kicker": "I don't make the plans.",
+  "through_line": {
+    "name": "the fried Oreo",
+    "prop_prompt": "a round deep-fried batter ball on a short wooden stick, split open to show a dark cookie inside, dusted heavily with white powdered sugar",
+    "progression": [
+      "a round battered shape on a stick, descending",
+      "powdered sugar falling ahead of it like snow",
+      "the fried Oreo lands and introduces itself",
+      "the floor is coated white with sugar",
+      "five more descend in a row",
+      "a funnel cake shape appears above them all"
+    ]
+  },
+  "blocks": [
+    {
+      "n": 1,
+      "role": "hook",
+      "location": "esophagus",
+      "characters": [
+        "pipes",
+        "gut"
+      ],
+      "props": [
+        "fried_oreo"
+      ],
+      "through_line_state": "a round battered shape on a stick, descending",
+      "sfx": "a fryer sizzle, a light dusting patter, a swallow",
+      "shots": [
+        "MEDIUM, eye level: Pipes bracing before he asks",
+        "CLOSE, low angle: Gut half asleep, opening one eye",
+        "MEDIUM, high angle: a round battered shape on a stick coming down",
+        "CLOSE on the eyes: Gut fully awake now"
+      ],
+      "turns": [
+        {
+          "speaker": "pipes",
+          "line": "Gut. I have a question."
+        },
+        {
+          "speaker": "gut",
+          "line": "Make it a fast one."
+        },
+        {
+          "speaker": "pipes",
+          "line": "What happens if six fried Oreos arrive?"
+        },
+        {
+          "speaker": "gut",
+          "line": "Six? On a stick? At a fair?"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "refusal",
+      "location": "esophagus",
+      "characters": [
+        "gut",
+        "pipes"
+      ],
+      "props": [
+        "fried_oreo"
+      ],
+      "through_line_state": "powdered sugar falling ahead of it like snow",
+      "sfx": "a soft dusting patter, a scrape, a creak",
+      "shots": [
+        "CLOSE, low angle: Gut shouting up through falling white powder",
+        "MEDIUM, eye level: Pipes coated white, blinking sugar away",
+        "MEDIUM, high angle: powder drifting down the whole length of the tube",
+        "CLOSE on Pipes' eyes, entirely white-dusted"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "Absolutely not. Nothing fried comes down."
+        },
+        {
+          "speaker": "pipes",
+          "line": "There's powdered sugar on them too."
+        },
+        {
+          "speaker": "gut",
+          "line": "How much powdered sugar, Pipes?"
+        },
+        {
+          "speaker": "pipes",
+          "line": "It's less sugar, more of a coating."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "arrival",
+      "location": "stomach",
+      "characters": [
+        "gut",
+        "fried_oreo"
+      ],
+      "props": [],
+      "through_line_state": "the fried Oreo lands and introduces itself",
+      "sfx": "a heavy greasy splat, a sugar puff, a cheerful chirp",
+      "shots": [
+        "MEDIUM, high angle: the fried ball landing with the stick still in it",
+        "CLOSE, low angle: two delighted eyes opening in the batter",
+        "MEDIUM, eye level: Gut staring at the wooden stick",
+        "CLOSE on the eyes: the Oreo beaming, Gut horrified"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "You are dripping on everything."
+        },
+        {
+          "speaker": "fried_oreo",
+          "line": "Fresh out the fryer, friend!"
+        },
+        {
+          "speaker": "gut",
+          "line": "There is a stick in you."
+        },
+        {
+          "speaker": "fried_oreo",
+          "line": "Wooden! Don't worry about the stick!"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "escalation",
+      "location": "brain_room",
+      "characters": [
+        "gut",
+        "hq"
+      ],
+      "props": [
+        "phone"
+      ],
+      "through_line_state": "the floor is coated white with sugar",
+      "sfx": "a phone tap, a distant fairground organ, a hum",
+      "shots": [
+        "MEDIUM, eye level: HQ scrolling, faintly appalled",
+        "CLOSE, low angle: the phone screen lighting HQ's face",
+        "MEDIUM, high angle: HQ holding the phone out at arm's length",
+        "CLOSE on HQ's eyes going flat"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "HQ, tell me what that is."
+        },
+        {
+          "speaker": "hq",
+          "line": "A cookie. Battered. Then fried."
+        },
+        {
+          "speaker": "gut",
+          "line": "Why would anybody build that?"
+        },
+        {
+          "speaker": "hq",
+          "line": "There's a line. A very long line."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "backfire",
+      "location": "brain_room",
+      "characters": [
+        "gut",
+        "pancho"
+      ],
+      "props": [],
+      "through_line_state": "five more descend in a row",
+      "sfx": "a capsule toss, a heavy thud, a ragged breath",
+      "shots": [
+        "CLOSE, low angle: Pancho arriving with sleeves already rolled",
+        "MEDIUM, eye level: Pancho winding up and throwing a small blue capsule",
+        "MEDIUM, high angle: five more shapes descending behind Gut",
+        "CLOSE on the eyes: Pancho seeing the five and giving up"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "Pancho. We need you. Right now."
+        },
+        {
+          "speaker": "pancho",
+          "line": "Insulin, going out. That's one."
+        },
+        {
+          "speaker": "gut",
+          "line": "There are five more coming down."
+        },
+        {
+          "speaker": "pancho",
+          "line": "Five? That's fine. I'm cooked."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "payoff",
+      "location": "basement",
+      "characters": [
+        "gut",
+        "rusty"
+      ],
+      "props": [],
+      "through_line_state": "a funnel cake shape appears above them all",
+      "sfx": "a distant fryer hiss, one low rumble, silence",
+      "shots": [
+        "MEDIUM, eye level: the tunnel, dusted faintly white",
+        "CLOSE, low angle: Gut exhaling, finished",
+        "MEDIUM, high angle: a wide flat shape appearing in the opening above",
+        "CLOSE on the eyes: Rusty watching it come"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "That's it. That was the last one."
+        },
+        {
+          "speaker": "rusty",
+          "line": "There's a funnel cake now."
+        },
+        {
+          "speaker": "gut",
+          "line": "Rusty. Don't do that to me."
+        },
+        {
+          "speaker": "rusty",
+          "line": "I don't make the plans."
+        }
+      ]
+    }
+  ]
+}

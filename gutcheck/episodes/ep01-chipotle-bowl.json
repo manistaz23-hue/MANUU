@@ -1,0 +1,262 @@
+{
+  "id": "ep01",
+  "slug": "chipotle-bowl",
+  "vein": "fast food and chains",
+  "food": "a Chipotle bowl",
+  "food_keywords": [
+    "bowl",
+    "guac",
+    "burrito"
+  ],
+  "caption": "Eating a Chipotle bowl right now:",
+  "title": "Eating a Chipotle bowl right now 🫠",
+  "hashtags": [
+    "#foodtok",
+    "#chipotle",
+    "#relatable",
+    "#burritobowl",
+    "#cartoon"
+  ],
+  "accent_color": "#8CC63F",
+  "kicker": "See y'all in twenty minutes.",
+  "through_line": {
+    "name": "the foil-wrapped bowl",
+    "prop_prompt": "a round foil takeout bowl with the lid peeled halfway back, packed with white rice, black beans and a large pale-green scoop on top, the foil crumpled at the rim",
+    "progression": [
+      "a distant foil-wrapped shape descending the tube",
+      "close on the bowl, comically oversized against the tube walls",
+      "the bowl lands, the lid peels back, it has a face",
+      "the bowl has settled and spread across the cavity floor",
+      "a second foil bowl appears above, descending",
+      "the monitor shows a third being ordered"
+    ]
+  },
+  "blocks": [
+    {
+      "n": 1,
+      "role": "hook",
+      "location": "esophagus",
+      "characters": [
+        "pipes",
+        "gut"
+      ],
+      "props": [
+        "burrito_bowl"
+      ],
+      "through_line_state": "a distant foil-wrapped shape descending the tube",
+      "sfx": "a low rumbling slide, a foil crinkle, one wet gulp",
+      "shots": [
+        "MEDIUM, eye level: Pipes stretched tall in the tube, eyes flicking upward as something heavy shifts far above him",
+        "CLOSE, low angle: Gut looks straight up the tube opening, eyebrows lowering",
+        "MEDIUM, high angle: the foil shape slides into view above Pipes, catching the light as it turns",
+        "CLOSE on the eyes: Gut's pupils shrink to dots"
+      ],
+      "turns": [
+        {
+          "speaker": "pipes",
+          "line": "Incoming delivery. Real big one."
+        },
+        {
+          "speaker": "gut",
+          "line": "How big are we talking?"
+        },
+        {
+          "speaker": "pipes",
+          "line": "Foil. Double wrapped. It's a burrito bowl."
+        },
+        {
+          "speaker": "gut",
+          "line": "With the guac? She paid extra again?"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "refusal",
+      "location": "esophagus",
+      "characters": [
+        "gut",
+        "pipes"
+      ],
+      "props": [
+        "burrito_bowl"
+      ],
+      "through_line_state": "close on the bowl, comically oversized against the tube walls",
+      "sfx": "a metallic scrape, a strained creak, a foil crinkle",
+      "shots": [
+        "CLOSE, low angle: Gut shouting up the tube, mouth wide",
+        "MEDIUM, eye level: Pipes bracing both sides of the tube as the bowl scrapes past him",
+        "CLOSE on Pipes' face squashed against the tube wall",
+        "MEDIUM, high angle: the bowl wedges, shudders, then slides on"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "Send it back. All of it."
+        },
+        {
+          "speaker": "pipes",
+          "line": "I can't send anything back."
+        },
+        {
+          "speaker": "gut",
+          "line": "We are not doing a full bowl today."
+        },
+        {
+          "speaker": "pipes",
+          "line": "Don't shoot the messenger. It's already moving."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "arrival",
+      "location": "stomach",
+      "characters": [
+        "gut",
+        "burrito_bowl"
+      ],
+      "props": [],
+      "through_line_state": "the bowl lands, the lid peels back, it has a face",
+      "sfx": "a heavy wet splat, foil unfurling, a cheerful pop",
+      "shots": [
+        "MEDIUM, high angle: the bowl drops into the cavity and lands flat in the liquid",
+        "CLOSE, low angle: the foil lid peels back and two cheerful eyes open",
+        "MEDIUM, eye level: Gut leans away from it, brows flat",
+        "CLOSE on the eyes: the bowl grins, Gut does not"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "No. No. No."
+        },
+        {
+          "speaker": "burrito_bowl",
+          "line": "Hey! Room for one more?"
+        },
+        {
+          "speaker": "gut",
+          "line": "Who let you in here?"
+        },
+        {
+          "speaker": "burrito_bowl",
+          "line": "White rice, black beans, and four scoops of guac!"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "escalation",
+      "location": "brain_room",
+      "characters": [
+        "gut",
+        "hq"
+      ],
+      "props": [
+        "phone"
+      ],
+      "through_line_state": "the bowl has settled and spread across the cavity floor",
+      "sfx": "a phone tap-tap-tap, a distant rumble, a slow sigh",
+      "shots": [
+        "MEDIUM, eye level: HQ standing in the red chamber, thumbing the phone without looking up",
+        "CLOSE, low angle: the phone screen glowing pale blue on HQ's face",
+        "MEDIUM, high angle: Gut's voice shakes the veins on the back wall",
+        "CLOSE on HQ's eyes going very still"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "HQ! Situation down here."
+        },
+        {
+          "speaker": "hq",
+          "line": "Hold on. Let me look it up."
+        },
+        {
+          "speaker": "gut",
+          "line": "It came with a tortilla on the side."
+        },
+        {
+          "speaker": "hq",
+          "line": "A side tortilla. For the bowl."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "backfire",
+      "location": "mouth_gate",
+      "characters": [
+        "gut",
+        "yuvi"
+      ],
+      "props": [
+        "gag_button"
+      ],
+      "through_line_state": "a second foil bowl appears above, descending",
+      "sfx": "a button click, a swinging creak, a smug hum",
+      "shots": [
+        "MEDIUM, high angle: the green button on the wall, a shadow reaching toward it",
+        "CLOSE, low angle: Yuvi swinging into frame between the teeth, blocking the way",
+        "MEDIUM, eye level: Yuvi turning slowly, entirely unbothered",
+        "CLOSE on the eyes: Yuvi winks as a second foil bowl drops past behind him"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "HQ, hit the button. Right now."
+        },
+        {
+          "speaker": "yuvi",
+          "line": "Easy now. Nobody's hitting anything."
+        },
+        {
+          "speaker": "gut",
+          "line": "Yuvi, this does not concern you."
+        },
+        {
+          "speaker": "yuvi",
+          "line": "It's YOU-vyoo-la. And I like the guac."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "payoff",
+      "location": "basement",
+      "characters": [
+        "gut",
+        "rusty"
+      ],
+      "props": [
+        "monitor"
+      ],
+      "through_line_state": "the monitor shows a third being ordered",
+      "sfx": "a monitor blip, a low distant rumble, silence",
+      "shots": [
+        "MEDIUM, eye level: the monitor flickers on above the tunnel mouth",
+        "CLOSE, low angle: on the pale screen, a hand tapping an order for more chips",
+        "MEDIUM, high angle: Gut sagging, liquid line higher than before",
+        "CLOSE on the eyes: Rusty's two calm eyes open in the dark"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "Look at the monitor. She's ordering more chips."
+        },
+        {
+          "speaker": "rusty",
+          "line": "Chips and queso. The large one."
+        },
+        {
+          "speaker": "gut",
+          "line": "I just cleaned in here."
+        },
+        {
+          "speaker": "rusty",
+          "line": "See y'all in twenty minutes."
+        }
+      ]
+    }
+  ]
+}

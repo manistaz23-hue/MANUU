@@ -1,0 +1,258 @@
+{
+  "id": "ep12",
+  "slug": "sad-desk-salad",
+  "vein": "sad American realism",
+  "food": "the work lunch salad",
+  "food_keywords": [
+    "salad"
+  ],
+  "caption": "Eating the work lunch salad:",
+  "title": "Eating the work lunch salad 🥲",
+  "hashtags": [
+    "#foodtok",
+    "#worklunch",
+    "#salad",
+    "#relatable",
+    "#cartoon"
+  ],
+  "accent_color": "#8CC63F",
+  "kicker": "That's the real lunch.",
+  "through_line": {
+    "name": "the salad",
+    "prop_prompt": "a clear plastic clamshell container of leafy greens with three chickpeas visible and a tiny sealed cup of dressing sitting on top, untouched",
+    "progression": [
+      "a green shape descending in a clear container",
+      "loose leaves coming down one at a time",
+      "the leaves land and one of them talks",
+      "the leaves have spread thinly across a huge empty floor",
+      "nothing else follows them down",
+      "two candy bars and a bag of chips appear above"
+    ]
+  },
+  "blocks": [
+    {
+      "n": 1,
+      "role": "hook",
+      "location": "esophagus",
+      "characters": [
+        "pipes",
+        "gut"
+      ],
+      "props": [
+        "salad_box"
+      ],
+      "through_line_state": "a green shape descending in a clear container",
+      "sfx": "a plastic lid snap, a light rustle, a swallow",
+      "shots": [
+        "MEDIUM, eye level: Pipes glancing up as green light reaches him",
+        "CLOSE, low angle: Gut's eyes narrowing immediately",
+        "MEDIUM, high angle: loose green leaves drifting down past Pipes",
+        "CLOSE on the eyes: Gut already knowing the answer"
+      ],
+      "turns": [
+        {
+          "speaker": "pipes",
+          "line": "Gut. Something green is coming."
+        },
+        {
+          "speaker": "gut",
+          "line": "Green like what, exactly?"
+        },
+        {
+          "speaker": "pipes",
+          "line": "Green like a salad. It's a work lunch."
+        },
+        {
+          "speaker": "gut",
+          "line": "And everyone else ordered burgers, right?"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "role": "refusal",
+      "location": "esophagus",
+      "characters": [
+        "gut",
+        "pipes"
+      ],
+      "props": [
+        "salad_box"
+      ],
+      "through_line_state": "loose leaves coming down one at a time",
+      "sfx": "a light rustle, a hollow echo, a creak",
+      "shots": [
+        "CLOSE, low angle: Gut speaking upward, flat and bitter",
+        "MEDIUM, eye level: Pipes catching a leaf and letting it go",
+        "MEDIUM, high angle: leaves drifting down slowly, one at a time",
+        "CLOSE on Pipes' eyes following one leaf down"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "We didn't want the salad. She knows."
+        },
+        {
+          "speaker": "pipes",
+          "line": "She said it out loud. Confidently."
+        },
+        {
+          "speaker": "gut",
+          "line": "In front of people. That's the problem."
+        },
+        {
+          "speaker": "pipes",
+          "line": "There's dressing. On the side."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "role": "arrival",
+      "location": "stomach",
+      "characters": [
+        "gut",
+        "salad"
+      ],
+      "props": [],
+      "through_line_state": "the leaves land and one of them talks",
+      "sfx": "a light scatter, a hollow echo, a bright chirp",
+      "shots": [
+        "MEDIUM, high angle: green leaves scattering across a vast empty floor",
+        "CLOSE, low angle: two bright eyes opening on one leaf",
+        "MEDIUM, eye level: Gut looking around at how much room is left",
+        "CLOSE on the eyes: the leaf optimistic, Gut hollow"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "Sir. There's nothing to you."
+        },
+        {
+          "speaker": "salad",
+          "line": "Hey! Lots of fiber down here!"
+        },
+        {
+          "speaker": "gut",
+          "line": "I asked for calories, not fiber."
+        },
+        {
+          "speaker": "salad",
+          "line": "Kale, arugula, three chickpeas, and hope!"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "role": "escalation",
+      "location": "brain_room",
+      "characters": [
+        "gut",
+        "hq"
+      ],
+      "props": [
+        "monitor"
+      ],
+      "through_line_state": "the leaves have spread thinly across a huge empty floor",
+      "sfx": "a monitor blip, an office murmur, a sigh",
+      "shots": [
+        "MEDIUM, eye level: HQ watching the monitor with mild guilt",
+        "CLOSE, low angle: on the screen, a table of other people's burgers",
+        "MEDIUM, high angle: HQ turning away from the screen",
+        "CLOSE on HQ's eyes, caught"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "HQ. We're going to be hungry."
+        },
+        {
+          "speaker": "hq",
+          "line": "She wanted to seem like this."
+        },
+        {
+          "speaker": "gut",
+          "line": "Seem like what, exactly, HQ?"
+        },
+        {
+          "speaker": "hq",
+          "line": "A person who orders salad. Publicly."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "role": "backfire",
+      "location": "mouth_gate",
+      "characters": [
+        "gut",
+        "yuvi"
+      ],
+      "props": [],
+      "through_line_state": "nothing else follows them down",
+      "sfx": "a swinging creak, a distant door, a smug hum",
+      "shots": [
+        "MEDIUM, high angle: the mouth interior, the light outside gone quiet",
+        "CLOSE, low angle: Yuvi swinging in, entirely relaxed",
+        "MEDIUM, eye level: Yuvi shrugging at nothing in particular",
+        "CLOSE on the eyes: Yuvi winking as the light dims"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "Yuvi. Is there anything else coming?"
+        },
+        {
+          "speaker": "yuvi",
+          "line": "Nothing. Everyone's gone back to work."
+        },
+        {
+          "speaker": "gut",
+          "line": "So that's it? That was lunch?"
+        },
+        {
+          "speaker": "yuvi",
+          "line": "There's a vending machine at three."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "role": "payoff",
+      "location": "basement",
+      "characters": [
+        "gut",
+        "rusty"
+      ],
+      "props": [
+        "monitor"
+      ],
+      "through_line_state": "two candy bars and a bag of chips appear above",
+      "sfx": "a vending machine thunk, one low rumble, silence",
+      "shots": [
+        "MEDIUM, eye level: the monitor flickering on above the tunnel",
+        "CLOSE, low angle: on the screen, a hand punching buttons twice",
+        "MEDIUM, high angle: three shapes dropping into the opening above",
+        "CLOSE on the eyes: Rusty entirely vindicated"
+      ],
+      "turns": [
+        {
+          "speaker": "gut",
+          "line": "Three o'clock. She's at the machine."
+        },
+        {
+          "speaker": "rusty",
+          "line": "What did she pick?"
+        },
+        {
+          "speaker": "gut",
+          "line": "Two candy bars and a bag of chips."
+        },
+        {
+          "speaker": "rusty",
+          "line": "That's the real lunch."
+        }
+      ]
+    }
+  ]
+}
